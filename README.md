@@ -4,7 +4,7 @@ Statistical analysis of how singular Lionel Messi's profile is across World Cups
 
 ## Status
 
-Early stage. The repository structure and methodology are being set up. Before building any pipeline, the project is validating whether a source like SofaScore can provide detailed match-level statistics for older World Cups (starting with a 1986 Maradona match as a test case). See `METHODOLOGY.md` for the current state of that validation and every methodological decision made so far.
+Early stage. The repository structure and methodology are being set up. Before building any pipeline, the project validated whether a source like SofaScore can provide detailed match-level statistics for older World Cups (starting with a 1986 Maradona match as a test case), and passed that check. See `METHODOLOGY.md` for the current state of every methodological decision made so far, and `MASTER_PLAN.md` for the step-by-step task list.
 
 ## The question
 
@@ -14,7 +14,7 @@ This is not an attempt to show Messi is the best in every category. Being extrao
 
 ## Why this project
 
-This is a portfolio Data Analytics project, built to be reproducible and defensible in a technical interview, not a highlight reel of Messi stats. The full reasoning behind every decision, including the ones that didn't go as expected, lives in `METHODOLOGY.md`.
+This is a portfolio Data Analytics project, built to be reproducible and defensible in a technical interview, not a highlight reel of Messi stats. The full reasoning behind every decision, including the ones that didn't go as expected, lives in `METHODOLOGY.md`. `MASTER_PLAN.md` (Spanish only, working document) tracks the sequential task list.
 
 ## Approach (summary)
 
@@ -46,7 +46,8 @@ messi-outlier/
 ├── src/                # Reusable functions shared across notebooks
 ├── scripts/            # Standalone one-off scripts (extraction, validation)
 ├── reports/figures/     # Exported visualizations
-├── METHODOLOGY.md
+├── METHODOLOGY.md       # Decisions, tools, techniques (why)
+├── MASTER_PLAN.md        # Step-by-step task list, Spanish only (what, in what order)
 └── README.md
 ```
 
@@ -67,7 +68,7 @@ Análisis estadístico de qué tan singular es el perfil de Lionel Messi en Mund
 
 ## Estado actual
 
-Etapa inicial. Se está armando la estructura del repositorio y la metodología. Antes de construir cualquier pipeline, el proyecto está validando si una fuente como SofaScore puede ofrecer estadísticas detalladas a nivel de partido para Mundiales antiguos (empezando con un partido de Maradona de 1986 como caso de prueba). El estado de esa validación y cada decisión metodológica tomada hasta ahora están en `METHODOLOGY.md`.
+Etapa inicial. Se está armando la estructura del repositorio y la metodología. Antes de construir cualquier pipeline, el proyecto validó si una fuente como SofaScore puede ofrecer estadísticas detalladas a nivel de partido para Mundiales antiguos (empezando con un partido de Maradona de 1986 como caso de prueba), y pasó esa validación. Cada decisión metodológica tomada hasta ahora está en `METHODOLOGY.md`, y el paso a paso secuencial en `MASTER_PLAN.md`.
 
 ## La pregunta
 
@@ -77,7 +78,7 @@ Esto no busca demostrar que Messi es el mejor en cada categoría. Ser extraordin
 
 ## Por qué este proyecto
 
-Este es un proyecto de portafolio de Data Analytics, construido para ser reproducible y defendible en una entrevista técnica, no una recopilación de estadísticas de Messi. El razonamiento completo detrás de cada decisión, incluyendo las que no salieron como se esperaba, vive en `METHODOLOGY.md`.
+Este es un proyecto de portafolio de Data Analytics, construido para ser reproducible y defendible en una entrevista técnica, no una recopilación de estadísticas de Messi. El razonamiento completo detrás de cada decisión, incluyendo las que no salieron como se esperaba, vive en `METHODOLOGY.md`. `MASTER_PLAN.md` (solo en español, documento de trabajo) lleva el registro secuencial de tareas.
 
 ## Enfoque (resumen)
 
@@ -109,7 +110,8 @@ messi-outlier/
 ├── src/                # Funciones reutilizables compartidas entre notebooks
 ├── scripts/            # Scripts puntuales (extracción, validación)
 ├── reports/figures/     # Visualizaciones exportadas
-├── METHODOLOGY.md
+├── METHODOLOGY.md       # Decisiones, herramientas, técnicas (el porqué)
+├── MASTER_PLAN.md        # Lista de tareas paso a paso, solo en español (el qué, en qué orden)
 └── README.md
 ```
 
