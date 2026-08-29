@@ -36,6 +36,8 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [x] Definir método de selección de líderes por rol: líder estadístico (dato) + adiciones manuales de referencia (comunicación), claramente etiquetadas y nunca mezcladas
 - [ ] Definir umbral mínimo de minutos — pendiente, se resuelve en Parte 4 con distribuciones reales en mano
 - [ ] Definir criterio de "élite" por rol (top 5 vs. corte por percentil) — pendiente, se resuelve en Parte 6 con datos reales en mano
+- [x] Decidir nivel de agregación de la población: jugador-carrera (una fila por jugador, sumando todos sus Mundiales 1966-2026), no jugador-torneo
+- [x] Decidir conservar tanto totales como métricas per 90, cada uno etiquetado para lo que mide, con el detalle de longevidad/rondas alcanzadas documentado como observación separada del cálculo de élite por rol
 - [x] Documentar todo lo anterior en `METHODOLOGY.md`
 
 ---
@@ -60,7 +62,7 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [ ] 3.1 Aplicar filtro de rango de años (1966-2026)
 - [ ] 3.2 Aplicar filtro de exclusión de arqueros
 - [ ] 3.3 Aplicar la decisión NaN=0 en campos de conteo de eventos
-- [ ] 3.4 Decidir y documentar el nivel de agregación: estadísticas por jugador-Mundial (un jugador aparece una vez por cada Mundial que jugó) vs. estadísticas por jugador-carrera (un jugador aparece una sola vez, sumando todos sus Mundiales) — esto todavía no está decidido y afecta directamente cómo se calculan después los percentiles
+- [ ] 3.4 Construir, además del dataset de población a nivel de carrera, las métricas totales de longevidad/trayectoria por jugador (Mundiales disputados, partidos jugados, rondas alcanzadas), documentadas como observación separada del cálculo de élite por rol, no mezcladas con el per 90
 - [ ] 3.5 Construir `notebooks/02_population_build.ipynb`
 - [ ] 3.6 Exportar `data/processed/population.csv`
 - [ ] 3.7 Documentar la decisión del punto 3.4 y cualquier otra decisión de limpieza relevante en `METHODOLOGY.md`
