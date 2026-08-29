@@ -35,9 +35,19 @@ Before designing the notebooks or the pipeline, the project needed to know wheth
 
 **Phase 0 conclusion:** SofaScore's internal API provides match-level data for the 1986 World Cup at a level of detail comparable to 2022, covering candidate metrics for all four functional roles. Maradona is cleared to participate in the full four-role analysis, not just basic stats. This was tested against the single most-documented Maradona match as a best case, not the average case, so per-match coverage should still be spot-checked for less prominent 1986 matches once the full extraction is built. Narrative version of this validation lives in `notebooks/00_historical_data_validation.ipynb`.
 
+## Phase 1: full extraction (completed)
+
+Ran the complete extraction across all 900 World Cup matches from 1966 to 2026 (see "Extraction method" below for the anti-bot challenges hit along the way and how they were handled). Result: 900 of 900 matches have a lineup file, none empty, 35-52 player rows per match.
+
+**Independent sanity check:** beyond file counts, checked whether the data reproduces something true about the world that it wasn't told. Messi appears in all 36 of his World Cup matches across his six tournaments (2006, 2010, 2014, 2018, 2022, 2026), and every one of his 5 matches in 2010 shows `goals: NaN` (treated as 0 per the decision above), matching the well known real fact that he didn't score at that tournament. Narrative version lives in `notebooks/01_extraction_coverage.ipynb`.
+
+**Open item carried into Phase 2:** the column-count inconsistency across matches (event-derived columns like `goals` simply don't exist in a match with zero of that event) was confirmed again at full scale, not just in the Phase 0 test case. This needs to be handled explicitly when merging all 900 matches into one population dataset (e.g. `pd.concat` with proper NaN-filling for missing columns, verified rather than assumed), not treated as already solved.
+
 ## Extraction method
 
 SofaScore is accessed through its internal API (no official public API exists), using the ScraperFC library, which handles the anti-bot browser automation. This is being documented explicitly per the project's transparency rules: an internal API is not the same as a public, stable, officially supported one, and that has implications for reproducibility (structure can change without notice) and for rate limiting (requests should not be aggressive).
+
+**Confirmed 2026-08-28:** during the full 1966-2026 extraction, the API started returning `{'error': {'code': 403, 'reason': 'challenge'}}` (a Cloudflare-style anti-bot challenge) after roughly 500 consecutive requests over about 30-40 minutes. ScraperFC surfaces this as a bare `KeyError('event')`, confirmed by fetching a failed match's raw response directly rather than trusting the library's error message. The extraction script now backs off automatically (a cooldown period after several consecutive failures) instead of treating each one as an independent, unrelated failure, since a run of failures across unrelated matches is this challenge response, not a per-match data problem.
 
 ## Population definition
 
@@ -115,9 +125,19 @@ Antes de diseñar los notebooks o el pipeline, había que saber si los datos siq
 
 **Conclusión de la Fase 0:** la API interna de SofaScore ofrece datos a nivel de partido para el Mundial de 1986 con un nivel de detalle comparable al de 2022, cubriendo métricas candidatas para los cuatro roles funcionales. Maradona queda habilitado para participar en el análisis completo de los cuatro roles, no solo en estadísticas básicas. Esto se probó contra su partido más documentado como mejor escenario posible, no el promedio, así que la cobertura por partido todavía debería revisarse puntualmente para partidos menos prominentes de 1986 una vez que se construya la extracción completa. La versión narrativa de esta validación vive en `notebooks/00_historical_data_validation.ipynb`.
 
+## Fase 1: extracción completa (completada)
+
+Se corrió la extracción completa sobre los 900 partidos de Mundiales entre 1966 y 2026 (ver "Método de extracción" abajo para los desafíos anti-bot que aparecieron en el camino y cómo se resolvieron). Resultado: 900 de 900 partidos tienen archivo de alineación, ninguno vacío, entre 35 y 52 filas de jugador por partido.
+
+**Chequeo de sanidad independiente:** más allá del conteo de archivos, se revisó si los datos reproducen algo real del mundo que no se les indicó. Messi aparece en los 36 partidos de sus seis Mundiales (2006, 2010, 2014, 2018, 2022, 2026), y cada uno de sus 5 partidos de 2010 muestra `goals: NaN` (tratado como 0 según la decisión de arriba), coincidiendo con el hecho real conocido de que no convirtió en ese torneo. La versión narrativa vive en `notebooks/01_extraction_coverage.ipynb`.
+
+**Punto abierto que pasa a la Fase 2:** la inconsistencia en la cantidad de columnas entre partidos (columnas derivadas de eventos como `goals` directamente no existen en un partido con cero ocurrencias de ese evento) se confirmó de nuevo a escala completa, no solo en el caso de prueba de la Fase 0. Esto hay que manejarlo explícitamente al unir los 900 partidos en un solo dataset de población (por ejemplo, `pd.concat` con relleno correcto de NaN para columnas faltantes, verificado y no asumido), no darlo por resuelto solo.
+
 ## Método de extracción
 
 Se accede a SofaScore a través de su API interna (no existe una API pública oficial), usando la librería ScraperFC, que maneja la automatización de navegador para evitar la protección anti-bot. Esto se documenta explícitamente según las reglas de transparencia del proyecto: una API interna no es lo mismo que una API pública, estable y oficialmente soportada, y eso tiene implicaciones para la reproducibilidad (la estructura puede cambiar sin aviso) y para el rate limiting (las solicitudes no deben ser agresivas).
+
+**Confirmado 2026-08-28:** durante la extracción completa 1966-2026, la API empezó a devolver `{'error': {'code': 403, 'reason': 'challenge'}}` (un desafío anti-bot tipo Cloudflare) después de aproximadamente 500 requests seguidas en unos 30-40 minutos. ScraperFC muestra esto como un simple `KeyError('event')`, confirmado al pedir directamente la respuesta cruda de un partido fallido en vez de confiar en el mensaje de error de la librería. El script de extracción ahora se frena solo (un período de espera después de varias fallas seguidas) en vez de tratar cada una como una falla independiente y no relacionada, porque una racha de fallas en partidos sin relación entre sí es este desafío, no un problema de datos específico de cada partido.
 
 ## Definición de población
 

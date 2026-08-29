@@ -1,0 +1,901 @@
+match_id,year,round,home_team,away_team,home_score,away_score,start_timestamp
+10278045,1966,round_1,Brazil,Bulgaria,2,0,-109587600
+10278063,1966,round_1,West Germany,Switzerland,5,0,-109587600
+10278058,1966,round_1,Italy,Chile,2,0,-109501200
+10278046,1966,round_1,Portugal,Hungary,3,1,-109501200
+10278064,1966,round_1,Argentina,Spain,2,1,-109501200
+10278052,1966,round_1,France,Mexico,1,1,-109501200
+10278059,1966,round_2,North Korea,Chile,1,1,-109328400
+10278047,1966,round_2,Hungary,Brazil,3,1,-109328400
+10278065,1966,round_2,Spain,Switzerland,2,1,-109328400
+10278053,1966,round_2,Uruguay,France,2,1,-109328400
+10278060,1966,round_2,USSR,Italy,1,0,-109242000
+10278048,1966,round_2,Portugal,Bulgaria,3,0,-109242000
+10278066,1966,round_2,West Germany,Argentina,0,0,-109242000
+10278054,1966,round_2,England,Mexico,2,0,-109242000
+10278061,1966,round_3,North Korea,Italy,1,0,-108982800
+10278049,1966,round_3,Portugal,Brazil,3,1,-108982800
+10278067,1966,round_3,Argentina,Switzerland,2,0,-108982800
+10278055,1966,round_3,Uruguay,Mexico,0,0,-108982800
+10278062,1966,round_3,USSR,Chile,2,1,-108896400
+10278050,1966,round_3,Hungary,Bulgaria,3,1,-108896400
+10278068,1966,round_3,West Germany,Spain,2,1,-108896400
+10278056,1966,round_3,England,France,2,0,-108896400
+10182822,1966,Quarterfinals,USSR,Hungary,2,1,-108637200
+10182823,1966,Quarterfinals,West Germany,Uruguay,4,0,-108637200
+10182824,1966,Quarterfinals,Portugal,North Korea,5,3,-108637200
+10182821,1966,Quarterfinals,England,Argentina,1,0,-108637200
+10182825,1966,Semifinals,West Germany,USSR,2,1,-108464400
+10182826,1966,Semifinals,England,Portugal,2,1,-108378000
+10182827,1966,Match for 3rd place,Portugal,USSR,2,1,-108205200
+10182828,1966,Final,England,West Germany,4,2,-108032400
+10278051,1966,round_1,England,Uruguay,0,0,-109674000
+10278057,1966,round_1,USSR,North Korea,3,0,-109587600
+10383064,1970,round_1,England,Romania,1,0,13186800
+10383070,1970,round_1,Uruguay,Israel,2,0,13186800
+10383084,1970,round_1,West Germany,Morocco,2,1,13273200
+10383065,1970,round_1,Brazil,Czechoslovakia,4,1,13273200
+10383071,1970,round_1,Italy,Sweden,1,0,13273200
+10383078,1970,round_1,Belgium,El Salvador,3,0,13273200
+10383085,1970,round_2,Peru,Morocco,3,0,13532400
+10383066,1970,round_2,Romania,Czechoslovakia,2,1,13532400
+10383072,1970,round_2,Uruguay,Italy,0,0,13532400
+10383079,1970,round_2,USSR,Belgium,4,1,13532400
+10383086,1970,round_2,West Germany,Bulgaria,5,2,13618800
+10383067,1970,round_2,Brazil,England,1,0,13618800
+10383073,1970,round_2,Sweden,Israel,1,1,13618800
+10383080,1970,round_2,Mexico,El Salvador,4,0,13618800
+10383087,1970,round_3,West Germany,Peru,3,1,13878000
+10383068,1970,round_3,Brazil,Romania,3,2,13878000
+10383074,1970,round_3,Sweden,Uruguay,1,0,13878000
+10383081,1970,round_3,USSR,El Salvador,2,0,13878000
+10383088,1970,round_3,Bulgaria,Morocco,1,1,13964400
+10383069,1970,round_3,England,Czechoslovakia,1,0,13964400
+10383075,1970,round_3,Italy,Israel,0,0,13964400
+10383082,1970,round_3,Mexico,Belgium,1,0,13964400
+7846667,1970,Quarterfinals,Uruguay,USSR,1,0,14223600
+7846670,1970,Quarterfinals,West Germany,England,3,2,14223600
+7846668,1970,Quarterfinals,Italy,Mexico,4,1,14223600
+7846669,1970,Quarterfinals,Brazil,Peru,4,2,14223600
+7846671,1970,Semifinals,Italy,West Germany,4,3,14482800
+7846672,1970,Semifinals,Brazil,Uruguay,3,1,14482800
+7846673,1970,Match for 3rd place,West Germany,Uruguay,1,0,14742000
+7846674,1970,Final,Brazil,Italy,4,1,14828400
+10383077,1970,round_1,Mexico,USSR,0,0,13014000
+10383083,1970,round_1,Peru,Bulgaria,3,2,13186800
+10383109,1974,round_2,Australia,West Germany,0,3,140799600
+10383104,1974,round_2,Yugoslavia,Zaire,9,0,140812200
+10383103,1974,round_2,Scotland,Brazil,0,0,140812200
+10383110,1974,round_2,Chile,East Germany,1,1,140812200
+10383091,1974,round_2,Haiti,Poland,0,7,140886000
+10383092,1974,round_2,Argentina,Italy,1,1,140886000
+10383098,1974,round_2,Bulgaria,Uruguay,1,1,140886000
+10383097,1974,round_2,Netherlands,Sweden,0,0,140886000
+10383105,1974,round_3,Scotland,Yugoslavia,1,1,141145200
+10383106,1974,round_3,Zaire,Brazil,0,3,141145200
+10383111,1974,round_3,Australia,Chile,0,0,141145200
+10383112,1974,round_3,East Germany,West Germany,1,0,141157800
+10383093,1974,round_3,Poland,Italy,2,1,141231600
+10383094,1974,round_3,Argentina,Haiti,4,1,141231600
+10383099,1974,round_3,Sweden,Uruguay,3,0,141231600
+10383100,1974,round_3,Bulgaria,Netherlands,1,4,141231600
+7846678,1974,round_4,Yugoslavia,West Germany,0,2,141490800
+7846677,1974,round_4,Sweden,Poland,0,1,141490800
+7846683,1974,round_4,Netherlands,Argentina,4,0,141490800
+7846684,1974,round_4,Brazil,East Germany,1,0,141503400
+7846679,1974,round_5,Poland,Yugoslavia,2,1,141836400
+7846685,1974,round_5,East Germany,Netherlands,0,2,141836400
+7846686,1974,round_5,Argentina,Brazil,1,2,141836400
+7846680,1974,round_5,West Germany,Sweden,4,2,141849000
+7846681,1974,round_6,Sweden,Yugoslavia,2,1,142095600
+7846687,1974,round_6,Netherlands,Brazil,2,0,142095600
+7846682,1974,round_6,Poland,West Germany,0,1,142097400
+7846688,1974,round_6,Argentina,East Germany,1,1,142108200
+7846675,1974,Match for 3rd place,Brazil,Poland,0,1,142354800
+7846676,1974,Final,Netherlands,West Germany,1,2,142441200
+10383101,1974,round_1,Brazil,Yugoslavia,0,0,140371200
+10383107,1974,round_1,West Germany,Chile,1,0,140454000
+10383102,1974,round_1,Zaire,Scotland,0,2,140466600
+10383108,1974,round_1,East Germany,Australia,2,0,140466600
+10383090,1974,round_1,Italy,Haiti,3,1,140540400
+10383089,1974,round_1,Poland,Argentina,3,2,140540400
+10383095,1974,round_1,Sweden,Bulgaria,0,0,140540400
+10383096,1974,round_1,Uruguay,Netherlands,0,2,140540400
+10383139,1978,round_2,West Germany,Mexico,6,0,265993200
+10383138,1978,round_2,Poland,Tunisia,1,0,265993200
+10383127,1978,round_2,Italy,Hungary,3,1,265993200
+10383126,1978,round_2,Argentina,France,2,1,265993200
+10383121,1978,round_2,Scotland,Iran,1,1,266079600
+10383120,1978,round_2,Netherlands,Peru,0,0,266079600
+10383133,1978,round_2,Austria,Sweden,1,0,266079600
+10383132,1978,round_2,Brazil,Spain,0,0,266079600
+10383141,1978,round_3,West Germany,Tunisia,0,0,266338800
+10383140,1978,round_3,Poland,Mexico,3,1,266338800
+10383129,1978,round_3,France,Hungary,3,1,266338800
+10383128,1978,round_3,Italy,Argentina,1,0,266338800
+10383123,1978,round_3,Peru,Iran,4,1,266425200
+10383122,1978,round_3,Scotland,Netherlands,3,2,266425200
+10383135,1978,round_3,Spain,Sweden,1,0,266425200
+10383134,1978,round_3,Brazil,Austria,1,0,266425200
+7846697,1978,round_4,Argentina,Poland,2,0,266684400
+7846698,1978,round_4,Brazil,Peru,3,0,266684400
+7846692,1978,round_4,Netherlands,Austria,5,1,266684400
+7846691,1978,round_4,West Germany,Italy,0,0,266684400
+7846700,1978,round_5,Poland,Peru,1,0,267030000
+7846699,1978,round_5,Argentina,Brazil,0,0,267030000
+7846694,1978,round_5,West Germany,Netherlands,2,2,267030000
+7846693,1978,round_5,Italy,Austria,1,0,267030000
+7846701,1978,round_6,Argentina,Peru,6,0,267289200
+7846702,1978,round_6,Brazil,Poland,3,1,267289200
+7846696,1978,round_6,Austria,West Germany,3,2,267289200
+7846695,1978,round_6,Netherlands,Italy,2,1,267289200
+7846689,1978,Match for 3rd place,Brazil,Italy,2,1,267548400
+7846690,1978,Final,Argentina,Netherlands,3,1,267634800
+10383136,1978,round_1,West Germany,Poland,0,0,265561200
+10383137,1978,round_1,Tunisia,Mexico,3,1,265647600
+10383124,1978,round_1,Argentina,Hungary,2,1,265647600
+10383125,1978,round_1,Italy,France,2,1,265647600
+10383119,1978,round_1,Peru,Scotland,3,1,265734000
+10383118,1978,round_1,Netherlands,Iran,3,0,265734000
+10383131,1978,round_1,Austria,Spain,2,1,265734000
+10383130,1978,round_1,Sweden,Brazil,1,1,265734000
+10383153,1982,round_2,Algeria,Austria,0,2,393516000
+10811822,1982,round_2,Honduras,Northern Ireland,1,1,393534900
+10383160,1982,round_3,Belgium,Hungary,1,1,393602400
+10383148,1982,round_3,Poland,Peru,5,1,393602400
+10811823,1982,round_3,USSR,Scotland,2,2,393621300
+10383161,1982,round_3,Argentina,El Salvador,2,0,393688800
+10383149,1982,round_3,Italy,Cameroon,1,1,393688800
+10811825,1982,round_3,Brazil,New Zealand,4,0,393707700
+10383171,1982,round_3,France,Czechoslovakia,1,1,393775200
+10383154,1982,round_3,Algeria,Chile,3,2,393775200
+10811826,1982,round_3,Honduras,Yugoslavia,0,1,393794100
+10383172,1982,round_3,England,Kuwait,1,0,393861600
+10383155,1982,round_3,West Germany,Austria,1,0,393861600
+10811827,1982,round_3,Northern Ireland,Spain,1,0,393880500
+7846714,1982,round_4,Austria,France,0,1,394120800
+7846717,1982,round_4,Poland,Belgium,3,0,394120800
+7846711,1982,round_4,Italy,Argentina,2,1,394207200
+7846708,1982,round_4,West Germany,England,0,0,394207200
+7846715,1982,round_5,Austria,Northern Ireland,2,2,394380000
+7846718,1982,round_5,Belgium,USSR,0,1,394380000
+7846712,1982,round_5,Argentina,Brazil,1,3,394466400
+7846709,1982,round_5,West Germany,Spain,2,1,394466400
+7846716,1982,round_6,France,Northern Ireland,4,1,394639200
+7846719,1982,round_6,Poland,USSR,0,0,394639200
+7846713,1982,round_6,Italy,Brazil,3,2,394725600
+7846710,1982,round_6,Spain,England,0,0,394725600
+7846704,1982,Semifinals,West Germany,France,8,7,394984800
+7846705,1982,Semifinals,Poland,Italy,0,2,394984800
+7846706,1982,Match for 3rd place,Poland,France,3,2,395157600
+7846707,1982,Final,Italy,West Germany,3,1,395244000
+10383156,1982,round_1,Argentina,Belgium,0,1,392824800
+10383144,1982,round_1,Italy,Poland,0,0,392911200
+10811805,1982,round_1,Brazil,USSR,2,1,392930100
+10383157,1982,round_1,Hungary,El Salvador,10,1,392997600
+10383145,1982,round_1,Peru,Cameroon,0,0,392997600
+10811807,1982,round_1,Scotland,New Zealand,5,2,393016500
+10383167,1982,round_1,England,France,3,1,393084000
+10383150,1982,round_1,West Germany,Algeria,1,2,393084000
+10811808,1982,round_1,Spain,Honduras,1,1,393102900
+10383168,1982,round_1,Czechoslovakia,Kuwait,1,1,393170400
+10383151,1982,round_1,Chile,Austria,0,1,393170400
+10811819,1982,round_1,Yugoslavia,Northern Ireland,0,0,393189300
+10383158,1982,round_2,Argentina,Hungary,4,1,393256800
+10383146,1982,round_2,Italy,Peru,1,1,393256800
+10811820,1982,round_2,Brazil,Scotland,4,1,393275700
+10383159,1982,round_2,Belgium,El Salvador,1,0,393343200
+10383147,1982,round_2,Poland,Cameroon,0,0,393343200
+10811824,1982,round_2,USSR,New Zealand,3,0,393362100
+10383169,1982,round_2,England,Czechoslovakia,2,0,393429600
+10383152,1982,round_2,West Germany,Chile,4,1,393429600
+10811821,1982,round_2,Spain,Yugoslavia,2,1,393448500
+10383170,1982,round_2,France,Kuwait,4,1,393516000
+7846722,1986,round_2,Denmark,Uruguay,6,1,518623200
+7846769,1986,round_2,Iraq,Belgium,1,2,518623200
+7846764,1986,round_3,USSR,Canada,2,0,518709600
+7846765,1986,round_3,Hungary,France,0,3,518709600
+7846737,1986,round_3,South Korea,Italy,2,3,518796000
+7846736,1986,round_3,Argentina,Bulgaria,2,0,518796000
+7846743,1986,round_3,England,Poland,3,0,518882400
+7846742,1986,round_3,Portugal,Morocco,1,3,518882400
+7846770,1986,round_3,Iraq,Mexico,0,1,518882400
+7846771,1986,round_3,Paraguay,Belgium,2,2,518882400
+7846730,1986,round_3,Algeria,Spain,0,3,518968800
+7846731,1986,round_3,Northern Ireland,Brazil,0,3,518968800
+7846725,1986,round_3,Denmark,West Germany,2,0,519055200
+7846724,1986,round_3,Scotland,Uruguay,0,0,519055200
+7846745,1986,Round of 16,Mexico,Bulgaria,2,0,519228000
+7846744,1986,Round of 16,USSR,Belgium,3,4,519228000
+7846746,1986,Round of 16,Argentina,Uruguay,1,0,519314400
+7846747,1986,Round of 16,Brazil,Poland,4,0,519314400
+7846748,1986,Round of 16,Morocco,West Germany,0,1,519400800
+7846749,1986,Round of 16,Italy,France,0,2,519400800
+7846751,1986,Round of 16,England,Paraguay,3,0,519487200
+7846750,1986,Round of 16,Denmark,Spain,1,5,519487200
+7846752,1986,Quarterfinals,West Germany,Mexico,4,1,519746400
+7846753,1986,Quarterfinals,Brazil,France,4,5,519746400
+7846754,1986,Quarterfinals,Spain,Belgium,5,6,519832800
+7846755,1986,Quarterfinals,Argentina,England,2,1,519832800
+7846757,1986,Semifinals,France,West Germany,0,2,520092000
+7846756,1986,Semifinals,Argentina,Belgium,2,0,520092000
+7846758,1986,Match for 3rd place,France,Belgium,4,2,520351200
+7846759,1986,Final,Argentina,West Germany,3,2,520437600
+7846732,1986,round_1,Bulgaria,Italy,1,1,517932000
+7846726,1986,round_1,Spain,Brazil,0,1,518018400
+7846760,1986,round_1,Canada,France,0,1,518018400
+7846738,1986,round_1,Morocco,Poland,0,0,518104800
+7846761,1986,round_1,USSR,Hungary,6,0,518104800
+7846733,1986,round_1,Argentina,South Korea,3,1,518104800
+7846739,1986,round_1,Portugal,England,1,0,518191200
+7846727,1986,round_1,Algeria,Northern Ireland,1,1,518191200
+7846766,1986,round_1,Belgium,Mexico,1,2,518191200
+7846720,1986,round_1,Scotland,Denmark,0,1,518277600
+7846721,1986,round_1,Uruguay,West Germany,1,1,518277600
+7846767,1986,round_1,Paraguay,Iraq,1,0,518277600
+7846762,1986,round_2,France,USSR,1,1,518364000
+7846734,1986,round_2,South Korea,Bulgaria,1,1,518364000
+7846735,1986,round_2,Italy,Argentina,1,1,518364000
+7846740,1986,round_2,England,Morocco,0,0,518450400
+7846728,1986,round_2,Brazil,Algeria,1,0,518450400
+7846763,1986,round_2,Hungary,Canada,2,0,518450400
+7846741,1986,round_2,Poland,Portugal,1,0,518536800
+7846729,1986,round_2,Northern Ireland,Spain,1,2,518536800
+7846768,1986,round_2,Mexico,Paraguay,1,1,518536800
+7846723,1986,round_2,West Germany,Scotland,2,1,518623200
+7846780,1990,round_2,Belgium,Uruguay,3,1,645649200
+7846781,1990,round_2,South Korea,Spain,1,3,645649200
+7846795,1990,round_3,Cameroon,USSR,0,4,645735600
+7846794,1990,round_3,Argentina,Romania,1,1,645735600
+7846816,1990,round_3,Yugoslavia,United Arab Emirates,4,1,645807600
+7846817,1990,round_3,West Germany,Colombia,1,1,645807600
+7846777,1990,round_3,Austria,USA,2,1,645822000
+7846776,1990,round_3,Italy,Czechoslovakia,2,0,645822000
+7846788,1990,round_3,Sweden,Costa Rica,1,2,645908400
+7846789,1990,round_3,Brazil,Scotland,1,0,645908400
+7846783,1990,round_3,South Korea,Uruguay,0,1,645980400
+7846782,1990,round_3,Belgium,Spain,1,2,645980400
+7846822,1990,round_3,Ireland,Netherlands,1,1,645994800
+7846823,1990,round_3,England,Egypt,1,0,645994800
+7846796,1990,Round of 16,Cameroon,Colombia,2,1,646153200
+7846797,1990,Round of 16,Czechoslovakia,Costa Rica,4,1,646167600
+7846798,1990,Round of 16,Brazil,Argentina,0,1,646239600
+7846799,1990,Round of 16,West Germany,Netherlands,2,1,646254000
+7846800,1990,Round of 16,Ireland,Romania,5,4,646326000
+7846801,1990,Round of 16,Italy,Uruguay,2,0,646340400
+7846802,1990,Round of 16,Spain,Yugoslavia,1,2,646412400
+7846803,1990,Round of 16,England,Belgium,1,0,646426800
+7846804,1990,Quarterfinals,Yugoslavia,Argentina,2,3,646758000
+7846805,1990,Quarterfinals,Italy,Ireland,1,0,646772400
+7846806,1990,Quarterfinals,West Germany,Czechoslovakia,1,0,646844400
+7846807,1990,Quarterfinals,England,Cameroon,3,2,646858800
+7846808,1990,Semifinals,Italy,Argentina,4,5,647028000
+7846809,1990,Semifinals,West Germany,England,5,4,647114400
+7846810,1990,Match for 3rd place,Italy,England,2,1,647373600
+7846811,1990,Final,West Germany,Argentina,1,0,647460000
+7846790,1990,round_1,Argentina,Cameroon,0,1,644860800
+7846791,1990,round_1,USSR,Romania,0,2,644943600
+7846812,1990,round_1,United Arab Emirates,Colombia,0,2,644958000
+7846772,1990,round_1,Italy,Austria,1,0,644958000
+7846773,1990,round_1,USA,Czechoslovakia,1,5,645030000
+7846813,1990,round_1,West Germany,Yugoslavia,4,1,645044400
+7846784,1990,round_1,Brazil,Sweden,2,1,645044400
+7846785,1990,round_1,Costa Rica,Scotland,1,0,645116400
+7846818,1990,round_1,England,Ireland,1,1,645130800
+7846778,1990,round_1,Belgium,South Korea,2,0,645202800
+7846819,1990,round_1,Netherlands,Egypt,1,1,645217200
+7846779,1990,round_1,Uruguay,Spain,0,0,645289200
+7846792,1990,round_2,Argentina,USSR,2,0,645303600
+7846814,1990,round_2,Yugoslavia,Colombia,1,0,645375600
+7846793,1990,round_2,Cameroon,Romania,2,1,645390000
+7846774,1990,round_2,Italy,USA,1,0,645390000
+7846775,1990,round_2,Austria,Czechoslovakia,0,1,645462000
+7846815,1990,round_2,West Germany,United Arab Emirates,5,1,645476400
+7846786,1990,round_2,Brazil,Costa Rica,1,0,645548400
+7846820,1990,round_2,England,Netherlands,0,0,645562800
+7846787,1990,round_2,Sweden,Scotland,1,2,645562800
+7846821,1990,round_2,Ireland,Egypt,0,0,645634800
+7846842,1994,round_2,Argentina,Nigeria,2,1,772574400
+7846843,1994,round_2,Bulgaria,Greece,4,0,772648200
+7846862,1994,round_3,USA,Romania,0,1,772660800
+7846863,1994,round_3,Switzerland,Colombia,0,2,772660800
+7846851,1994,round_3,Bolivia,Spain,1,3,772747200
+7846850,1994,round_3,Germany,South Korea,3,2,772747200
+7846856,1994,round_3,Ireland,Norway,0,0,772821000
+7846857,1994,round_3,Italy,Mexico,1,1,772821000
+7846869,1994,round_3,Russia,Cameroon,6,1,772833600
+7846868,1994,round_3,Brazil,Sweden,1,1,772833600
+7846874,1994,round_3,Morocco,Netherlands,1,2,772907400
+7846875,1994,round_3,Belgium,Saudi Arabia,0,1,772907400
+7846844,1994,round_3,Greece,Nigeria,0,2,773019000
+7846845,1994,round_3,Argentina,Bulgaria,0,2,773019000
+7846824,1994,Round of 16,Germany,Belgium,3,2,773168400
+7846825,1994,Round of 16,Spain,Switzerland,3,0,773181000
+7846826,1994,Round of 16,Saudi Arabia,Sweden,1,3,773254800
+7846827,1994,Round of 16,Romania,Argentina,3,2,773267400
+7846828,1994,Round of 16,Netherlands,Ireland,2,0,773337600
+7846829,1994,Round of 16,Brazil,USA,1,0,773350200
+7846830,1994,Round of 16,Nigeria,Italy,1,2,773427600
+7846831,1994,Round of 16,Mexico,Bulgaria,2,4,773440200
+7846832,1994,Quarterfinals,Italy,Spain,2,1,773769600
+7846833,1994,Quarterfinals,Netherlands,Brazil,2,3,773782200
+7846834,1994,Quarterfinals,Bulgaria,Germany,2,1,773856000
+7846835,1994,Quarterfinals,Romania,Sweden,6,7,773868600
+7846836,1994,Semifinals,Bulgaria,Italy,1,2,774129600
+7846837,1994,Semifinals,Sweden,Brazil,0,1,774142200
+7846838,1994,Match for 3rd place,Sweden,Bulgaria,4,0,774387000
+7846839,1994,Final,Brazil,Italy,3,2,774473400
+7846846,1994,round_1,Germany,Bolivia,1,0,771879600
+7846847,1994,round_1,Spain,South Korea,2,2,771895800
+7846858,1994,round_1,USA,Switzerland,1,1,771953400
+7846852,1994,round_1,Italy,Ireland,0,1,771969600
+7846859,1994,round_1,Colombia,Romania,1,3,771982200
+7846870,1994,round_1,Belgium,Morocco,1,0,772043400
+7846853,1994,round_1,Norway,Mexico,1,0,772056000
+7846864,1994,round_1,Cameroon,Sweden,2,2,772068600
+7846865,1994,round_1,Brazil,Russia,2,0,772142400
+7846871,1994,round_1,Netherlands,Saudi Arabia,2,1,772155000
+7846840,1994,round_1,Argentina,Greece,4,0,772216200
+7846848,1994,round_2,Germany,Spain,1,1,772228800
+7846841,1994,round_1,Nigeria,Bulgaria,3,0,772241400
+7846860,1994,round_2,Romania,Switzerland,1,4,772315200
+7846861,1994,round_2,USA,Colombia,2,1,772327800
+7846854,1994,round_2,Italy,Norway,1,0,772401600
+7846849,1994,round_2,South Korea,Bolivia,0,0,772414200
+7846855,1994,round_2,Mexico,Ireland,2,1,772475400
+7846866,1994,round_2,Brazil,Cameroon,3,0,772488000
+7846867,1994,round_2,Sweden,Russia,3,1,772500600
+7846872,1994,round_2,Belgium,Netherlands,1,0,772552800
+7846873,1994,round_2,Saudi Arabia,Morocco,2,1,772561800
+264891,1998,round_3,Scotland,Morocco,0,3,898628400
+264892,1998,round_3,Brazil,Norway,1,2,898628400
+264903,1998,round_3,South Africa,Saudi Arabia,2,2,898696800
+264904,1998,round_3,France,Denmark,2,1,898696800
+264910,1998,round_3,Nigeria,Paraguay,1,3,898714800
+264909,1998,round_3,Spain,Bulgaria,6,1,898714800
+264915,1998,round_3,Belgium,South Korea,1,1,898783200
+264916,1998,round_3,Netherlands,Mexico,2,2,898783200
+264922,1998,round_3,USA,Yugoslavia,0,1,898801200
+264921,1998,round_3,Germany,Iran,2,0,898801200
+264933,1998,round_3,Japan,Jamaica,1,2,898869600
+264934,1998,round_3,Argentina,Croatia,1,0,898869600
+264927,1998,round_3,Romania,Tunisia,1,1,898887600
+264928,1998,round_3,Colombia,England,0,2,898887600
+264946,1998,Round of 16,Italy,Norway,1,0,898957800
+264945,1998,Round of 16,Brazil,Chile,4,1,898974000
+264944,1998,Round of 16,France,Paraguay,1,0,899044200
+264943,1998,Round of 16,Nigeria,Denmark,1,4,899060400
+264942,1998,Round of 16,Germany,Mexico,2,1,899130600
+264941,1998,Round of 16,Netherlands,Yugoslavia,2,1,899146800
+264940,1998,Round of 16,Romania,Croatia,0,1,899217000
+264939,1998,Round of 16,Argentina,England,6,5,899233200
+264950,1998,Quarterfinals,Italy,France,3,4,899476200
+264949,1998,Quarterfinals,Brazil,Denmark,3,2,899492400
+264948,1998,Quarterfinals,Netherlands,Argentina,2,1,899562600
+264947,1998,Quarterfinals,Germany,Croatia,0,3,899578800
+264952,1998,Semifinals,Brazil,Netherlands,5,3,899838000
+264951,1998,Semifinals,France,Croatia,2,1,899924400
+264953,1998,Match for 3rd place,Netherlands,Croatia,1,2,900183600
+264954,1998,Final,Brazil,France,0,3,900270000
+264914,1998,round_1,Paraguay,Bulgaria,0,0,897654600
+264908,1998,round_1,Saudi Arabia,Denmark,0,1,897665400
+264907,1998,round_1,France,South Africa,3,0,897678000
+264913,1998,round_1,Spain,Nigeria,2,3,897741000
+264920,1998,round_1,South Korea,Mexico,1,3,897751800
+264919,1998,round_1,Netherlands,Belgium,0,0,897764400
+264938,1998,round_1,Argentina,Japan,1,0,897827400
+264926,1998,round_1,Yugoslavia,Iran,1,0,897838200
+264937,1998,round_1,Jamaica,Croatia,1,3,897850800
+264932,1998,round_1,England,Tunisia,2,0,897913800
+264931,1998,round_1,Romania,Colombia,1,0,897924600
+264925,1998,round_1,Germany,USA,2,0,897937200
+264894,1998,round_2,Scotland,Norway,1,1,898011000
+264893,1998,round_2,Brazil,Morocco,3,0,898023600
+264900,1998,round_2,Chile,Austria,1,1,898097400
+264899,1998,round_2,Italy,Cameroon,3,0,898110000
+264906,1998,round_2,South Africa,Denmark,1,1,898183800
+264905,1998,round_2,France,Saudi Arabia,4,0,898196400
+264912,1998,round_2,Nigeria,Bulgaria,1,0,898270200
+264911,1998,round_2,Spain,Paraguay,0,0,898282800
+264936,1998,round_2,Japan,Croatia,0,1,898345800
+264918,1998,round_2,Belgium,Mexico,2,2,898356600
+264917,1998,round_2,Netherlands,South Korea,5,0,898369200
+264924,1998,round_2,Germany,Yugoslavia,2,2,898432200
+264935,1998,round_2,Argentina,Jamaica,5,0,898443000
+264923,1998,round_2,USA,Iran,1,2,898455600
+264930,1998,round_2,Colombia,Tunisia,1,0,898529400
+264929,1998,round_2,Romania,England,2,1,898542000
+264897,1998,round_3,Chile,Cameroon,1,1,898610400
+264898,1998,round_3,Italy,Austria,2,1,898610400
+264896,1998,round_1,Brazil,Scotland,2,1,897492600
+264895,1998,round_1,Morocco,Norway,2,2,897505200
+264902,1998,round_1,Italy,Chile,2,2,897579000
+264901,1998,round_1,Cameroon,Austria,1,1,897591600
+264979,2002,round_3,Saudi Arabia,Ireland,0,3,1023795000
+264980,2002,round_3,Cameroon,Germany,0,2,1023795000
+264985,2002,round_3,Nigeria,England,0,0,1023863400
+264986,2002,round_3,Sweden,Argentina,1,1,1023863400
+264961,2002,round_3,Slovenia,Paraguay,1,3,1023881400
+264962,2002,round_3,South Africa,Spain,2,3,1023881400
+264967,2002,round_3,Türkiye,China,3,0,1023949800
+264968,2002,round_3,Costa Rica,Brazil,2,5,1023949800
+264992,2002,round_3,Ecuador,Croatia,1,0,1023967800
+264991,2002,round_3,Mexico,Italy,1,1,1023967800
+264997,2002,round_3,Tunisia,Japan,0,2,1024036200
+264998,2002,round_3,Belgium,Russia,3,2,1024036200
+264974,2002,round_3,Poland,USA,3,1,1024054200
+264973,2002,round_3,Portugal,South Korea,0,1,1024054200
+265010,2002,Round of 16,Germany,Paraguay,1,0,1024122600
+265009,2002,Round of 16,Denmark,England,0,3,1024140600
+265008,2002,Round of 16,Sweden,Senegal,1,2,1024209000
+265007,2002,Round of 16,Spain,Ireland,4,3,1024227000
+265006,2002,Round of 16,Mexico,USA,0,2,1024295400
+265005,2002,Round of 16,Brazil,Belgium,2,0,1024313400
+265004,2002,Round of 16,Japan,Türkiye,0,1,1024381800
+265003,2002,Round of 16,South Korea,Italy,2,1,1024399800
+265014,2002,Quarterfinals,England,Brazil,1,2,1024641000
+265013,2002,Quarterfinals,Germany,USA,1,0,1024659000
+265012,2002,Quarterfinals,Spain,South Korea,3,5,1024727400
+265011,2002,Quarterfinals,Senegal,Türkiye,0,1,1024745400
+265016,2002,Semifinals,Germany,South Korea,1,0,1025004600
+265015,2002,Semifinals,Brazil,Türkiye,1,0,1025091000
+265017,2002,Match for 3rd place,South Korea,Türkiye,2,3,1025348400
+265018,2002,Final,Germany,Brazil,0,2,1025434800
+264990,2002,round_1,Argentina,Nigeria,1,0,1022995800
+264966,2002,round_1,Paraguay,South Africa,2,2,1023003000
+264989,2002,round_1,England,Sweden,1,1,1023010200
+264965,2002,round_1,Spain,Slovenia,3,1,1023017400
+264996,2002,round_1,Croatia,Mexico,0,1,1023085800
+264972,2002,round_1,Brazil,Türkiye,2,1,1023094800
+264995,2002,round_1,Italy,Ecuador,2,0,1023103800
+264971,2002,round_1,China,Costa Rica,0,2,1023172200
+265002,2002,round_1,Japan,Belgium,2,2,1023181200
+264978,2002,round_1,South Korea,Poland,2,0,1023190200
+265001,2002,round_1,Russia,Tunisia,2,0,1023258600
+264977,2002,round_1,USA,Portugal,3,2,1023267600
+264982,2002,round_2,Germany,Ireland,1,1,1023276600
+264958,2002,round_2,Denmark,Senegal,1,1,1023345000
+264981,2002,round_2,Cameroon,Saudi Arabia,1,0,1023354000
+264957,2002,round_2,France,Uruguay,0,0,1023363000
+264988,2002,round_2,Sweden,Nigeria,2,1,1023431400
+264964,2002,round_2,Spain,Paraguay,3,1,1023440400
+264987,2002,round_2,Argentina,England,0,1,1023449400
+264963,2002,round_2,South Africa,Slovenia,1,0,1023517800
+264994,2002,round_2,Italy,Croatia,1,2,1023526800
+264970,2002,round_2,Brazil,China,4,0,1023535800
+264993,2002,round_2,Mexico,Ecuador,2,1,1023604200
+264969,2002,round_2,Costa Rica,Türkiye,1,1,1023613200
+265000,2002,round_2,Japan,Russia,1,0,1023622200
+264976,2002,round_2,South Korea,USA,1,1,1023690600
+264999,2002,round_2,Tunisia,Belgium,1,1,1023699600
+264975,2002,round_2,Portugal,Poland,4,0,1023708600
+264955,2002,round_3,Senegal,Uruguay,3,3,1023777000
+264956,2002,round_3,Denmark,France,2,0,1023777000
+264960,2002,round_1,France,Senegal,0,1,1022844600
+264984,2002,round_1,Ireland,Cameroon,1,1,1022913000
+264959,2002,round_1,Uruguay,Denmark,1,2,1022922000
+264983,2002,round_1,Germany,Saudi Arabia,8,0,1022931000
+231132,2006,round_3,Paraguay,Trinidad and Tobago,2,0,1150830000
+231131,2006,round_3,Sweden,England,2,2,1150830000
+231144,2006,round_3,Iran,Angola,1,1,1150898400
+231143,2006,round_3,Portugal,Mexico,2,1,1150898400
+231311,2006,round_3,Côte d'Ivoire,Serbia & Montenegro,3,2,1150916400
+231137,2006,round_3,Netherlands,Argentina,0,0,1150916400
+231150,2006,round_3,Ghana,USA,2,1,1150984800
+231149,2006,round_3,Czechia,Italy,0,2,1150984800
+231158,2006,round_3,Croatia,Australia,2,2,1151002800
+231157,2006,round_3,Japan,Brazil,1,4,1151002800
+231170,2006,round_3,Ukraine,Tunisia,1,0,1151071200
+231169,2006,round_3,Saudi Arabia,Spain,0,1,1151071200
+231164,2006,round_3,Switzerland,South Korea,2,0,1151089200
+231163,2006,round_3,Togo,France,0,2,1151089200
+265795,2006,Round of 16,Germany,Sweden,2,0,1151161200
+265796,2006,Round of 16,Argentina,Mexico,2,1,1151175600
+265797,2006,Round of 16,England,Ecuador,1,0,1151247600
+265798,2006,Round of 16,Portugal,Netherlands,1,0,1151262000
+265799,2006,Round of 16,Italy,Australia,1,0,1151334000
+265800,2006,Round of 16,Switzerland,Ukraine,0,3,1151348400
+265801,2006,Round of 16,Brazil,Ghana,3,0,1151420400
+265802,2006,Round of 16,Spain,France,1,3,1151434800
+268527,2006,Quarterfinals,Germany,Argentina,5,3,1151679600
+268528,2006,Quarterfinals,Italy,Ukraine,3,0,1151694000
+268529,2006,Quarterfinals,England,Portugal,1,3,1151766000
+268530,2006,Quarterfinals,Brazil,France,0,1,1151780400
+268531,2006,Semifinals,Germany,Italy,0,2,1152039600
+268532,2006,Semifinals,Portugal,France,0,1,1152126000
+268533,2006,Match for 3rd place,Germany,Portugal,3,1,1152385200
+268534,2006,Final,Italy,France,6,4,1152468000
+231309,2006,round_1,Argentina,Côte d'Ivoire,2,1,1149966000
+231134,2006,round_1,Serbia & Montenegro,Netherlands,0,1,1150030800
+231139,2006,round_1,Mexico,Iran,3,1,1150041600
+231140,2006,round_1,Angola,Portugal,0,1,1150052400
+231153,2006,round_1,Australia,Japan,3,1,1150117200
+231146,2006,round_1,USA,Czechia,0,3,1150128000
+231145,2006,round_1,Italy,Ghana,2,0,1150138800
+231160,2006,round_1,South Korea,Togo,2,1,1150203600
+231159,2006,round_1,France,Switzerland,0,0,1150214400
+231151,2006,round_1,Brazil,Croatia,1,0,1150225200
+231165,2006,round_1,Spain,Ukraine,4,0,1150290000
+231166,2006,round_1,Tunisia,Saudi Arabia,2,2,1150300800
+231123,2006,round_2,Germany,Poland,1,0,1150311600
+231124,2006,round_2,Ecuador,Costa Rica,3,0,1150376400
+231129,2006,round_2,England,Trinidad and Tobago,2,0,1150387200
+231130,2006,round_2,Sweden,Paraguay,1,0,1150398000
+231135,2006,round_2,Argentina,Serbia & Montenegro,6,0,1150462800
+231310,2006,round_2,Netherlands,Côte d'Ivoire,2,1,1150473600
+231141,2006,round_2,Mexico,Angola,0,0,1150484400
+231142,2006,round_2,Portugal,Iran,2,0,1150549200
+231148,2006,round_2,Czechia,Ghana,0,2,1150560000
+231147,2006,round_2,Italy,USA,1,1,1150570800
+231156,2006,round_2,Japan,Croatia,0,0,1150635600
+231154,2006,round_2,Brazil,Australia,2,0,1150646400
+231161,2006,round_2,France,South Korea,1,1,1150657200
+231162,2006,round_2,Togo,Switzerland,0,2,1150722000
+231168,2006,round_2,Saudi Arabia,Ukraine,0,4,1150732800
+231167,2006,round_2,Spain,Tunisia,3,1,1150743600
+231126,2006,round_3,Costa Rica,Poland,1,2,1150812000
+231125,2006,round_3,Ecuador,Germany,0,3,1150812000
+231121,2006,round_1,Germany,Costa Rica,4,2,1149868800
+231122,2006,round_1,Poland,Ecuador,0,2,1149879600
+231127,2006,round_1,England,Paraguay,1,0,1149944400
+231128,2006,round_1,Trinidad and Tobago,Sweden,0,0,1149955200
+1251344,2010,round_3,Nigeria,South Korea,2,2,1277231400
+1251346,2010,round_3,Greece,Argentina,0,2,1277231400
+1251336,2010,round_3,USA,Algeria,1,0,1277301600
+1251335,2010,round_3,Slovenia,England,0,1,1277301600
+1251340,2010,round_3,Australia,Serbia,2,1,1277317800
+1251339,2010,round_3,Ghana,Germany,0,1,1277317800
+1251368,2010,round_3,Paraguay,New Zealand,0,0,1277388000
+1251367,2010,round_3,Slovakia,Italy,3,2,1277388000
+1251349,2010,round_3,Denmark,Japan,1,3,1277404200
+1251350,2010,round_3,Cameroon,Netherlands,1,2,1277404200
+1251356,2010,round_3,North Korea,Côte d'Ivoire,0,3,1277474400
+1251355,2010,round_3,Portugal,Brazil,0,0,1277474400
+1251365,2010,round_3,Switzerland,Honduras,0,0,1277490600
+1251364,2010,round_3,Chile,Spain,1,2,1277490600
+1355384,2010,Round of 16,Uruguay,South Korea,2,1,1277560800
+1355385,2010,Round of 16,USA,Ghana,1,2,1277577000
+1355386,2010,Round of 16,Germany,England,4,1,1277647200
+1355387,2010,Round of 16,Argentina,Mexico,3,1,1277663400
+1355388,2010,Round of 16,Netherlands,Slovakia,2,1,1277733600
+1355389,2010,Round of 16,Brazil,Chile,3,0,1277749800
+1355390,2010,Round of 16,Paraguay,Japan,5,3,1277820000
+1355391,2010,Round of 16,Spain,Portugal,1,0,1277836200
+1355392,2010,Quarterfinals,Netherlands,Brazil,2,1,1278079200
+1355393,2010,Quarterfinals,Uruguay,Ghana,5,3,1278095400
+1355394,2010,Quarterfinals,Argentina,Germany,0,4,1278165600
+1355395,2010,Quarterfinals,Paraguay,Spain,0,1,1278181800
+1355396,2010,Semifinals,Uruguay,Netherlands,2,3,1278441000
+1355397,2010,Semifinals,Germany,Spain,0,1,1278527400
+1355440,2010,Match for 3rd place,Uruguay,Germany,2,3,1278786600
+1355398,2010,Final,Netherlands,Spain,0,1,1278873000
+1251327,2010,round_1,England,USA,1,1,1276367400
+1251328,2010,round_1,Algeria,Slovenia,0,1,1276428600
+1251331,2010,round_1,Serbia,Ghana,0,1,1276437600
+1251329,2010,round_1,Germany,Australia,4,0,1276453800
+1251343,2010,round_1,Netherlands,Denmark,2,0,1276515000
+1251345,2010,round_1,Japan,Cameroon,1,0,1276524000
+1251360,2010,round_1,Italy,Paraguay,1,1,1276540200
+1251362,2010,round_1,New Zealand,Slovakia,1,1,1276601400
+1251351,2010,round_1,Côte d'Ivoire,Portugal,0,0,1276610400
+1251352,2010,round_1,Brazil,North Korea,2,1,1276626600
+1251357,2010,round_1,Honduras,Chile,0,1,1276687800
+1251358,2010,round_1,Spain,Switzerland,0,1,1276696800
+1251323,2010,round_2,South Africa,Uruguay,0,3,1276713000
+1251342,2010,round_2,Argentina,South Korea,4,1,1276774200
+1251341,2010,round_2,Greece,Nigeria,2,1,1276783200
+1251324,2010,round_2,France,Mexico,0,2,1276799400
+1251333,2010,round_2,Germany,Serbia,0,1,1276860600
+1251330,2010,round_2,Slovenia,USA,2,2,1276869600
+1251332,2010,round_2,England,Algeria,0,0,1276885800
+1251347,2010,round_2,Netherlands,Japan,1,0,1276947000
+1251337,2010,round_2,Ghana,Australia,1,1,1276956000
+1251348,2010,round_2,Cameroon,Denmark,1,2,1276972200
+1251363,2010,round_2,Slovakia,Paraguay,0,2,1277033400
+1251366,2010,round_2,Italy,New Zealand,1,1,1277042400
+1251353,2010,round_2,Brazil,Côte d'Ivoire,3,1,1277058600
+1251354,2010,round_2,Portugal,North Korea,7,0,1277119800
+1251359,2010,round_2,Chile,Switzerland,1,0,1277128800
+1251361,2010,round_2,Spain,Honduras,2,0,1277145000
+1251326,2010,round_3,France,South Africa,1,2,1277215200
+1251325,2010,round_3,Mexico,Uruguay,0,1,1277215200
+1251321,2010,round_1,South Africa,Mexico,1,1,1276264800
+1251322,2010,round_1,Uruguay,France,0,0,1276281000
+1251338,2010,round_1,South Korea,Greece,2,0,1276342200
+1251334,2010,round_1,Argentina,Nigeria,1,0,1276351200
+4768720,2014,round_3,Croatia,Mexico,1,3,1403553600
+4768718,2014,round_3,Cameroon,Brazil,1,4,1403553600
+4768754,2014,round_3,Italy,Uruguay,0,1,1403625600
+4768756,2014,round_3,Costa Rica,England,0,0,1403625600
+4768744,2014,round_3,Greece,Côte d'Ivoire,2,1,1403640000
+4768742,2014,round_3,Japan,Colombia,1,4,1403640000
+4768780,2014,round_3,Bosnia & Herzegovina,Iran,3,1,1403712000
+4768778,2014,round_3,Nigeria,Argentina,2,3,1403712000
+4768766,2014,round_3,Honduras,Switzerland,0,3,1403726400
+4768768,2014,round_3,Ecuador,France,0,0,1403726400
+4768792,2014,round_3,Portugal,Ghana,2,1,1403798400
+4768790,2014,round_3,USA,Germany,0,1,1403798400
+4768804,2014,round_3,Algeria,Russia,1,1,1403812800
+4768802,2014,round_3,South Korea,Belgium,0,1,1403812800
+4768142,2014,Round of 16,Brazil,Chile,4,3,1403971200
+4768146,2014,Round of 16,Colombia,Uruguay,2,0,1403985600
+4768148,2014,Round of 16,Netherlands,Mexico,2,1,1404057600
+4768150,2014,Round of 16,Costa Rica,Greece,6,4,1404072000
+4768152,2014,Round of 16,France,Nigeria,2,0,1404144000
+4768154,2014,Round of 16,Germany,Algeria,2,1,1404158400
+4768156,2014,Round of 16,Argentina,Switzerland,1,0,1404230400
+4768158,2014,Round of 16,Belgium,USA,2,1,1404244800
+4768166,2014,Quarterfinals,France,Germany,0,1,1404489600
+4768164,2014,Quarterfinals,Brazil,Colombia,2,1,1404504000
+4768170,2014,Quarterfinals,Argentina,Belgium,1,0,1404576000
+4768168,2014,Quarterfinals,Netherlands,Costa Rica,4,3,1404590400
+4768172,2014,Semifinals,Brazil,Germany,1,7,1404849600
+4768174,2014,Semifinals,Netherlands,Argentina,2,4,1404936000
+4768176,2014,Match for 3rd place,Brazil,Netherlands,0,3,1405195200
+4768178,2014,Final,Germany,Argentina,1,0,1405278000
+4768734,2014,round_1,Colombia,Greece,3,0,1402761600
+4768746,2014,round_1,Uruguay,Costa Rica,1,3,1402772400
+4768748,2014,round_1,England,Italy,1,2,1402783200
+4768736,2014,round_1,Côte d'Ivoire,Japan,2,1,1402794000
+4768758,2014,round_1,Switzerland,Ecuador,2,1,1402848000
+4768760,2014,round_1,France,Honduras,3,0,1402858800
+4768770,2014,round_1,Argentina,Bosnia & Herzegovina,2,1,1402869600
+4768782,2014,round_1,Germany,Portugal,4,0,1402934400
+4768772,2014,round_1,Iran,Nigeria,0,0,1402945200
+4768784,2014,round_1,Ghana,USA,1,2,1402956000
+4768794,2014,round_1,Belgium,Algeria,2,1,1403020800
+4768714,2014,round_2,Brazil,Mexico,0,0,1403031600
+4768796,2014,round_1,Russia,South Korea,1,1,1403042400
+4768728,2014,round_2,Australia,Netherlands,2,3,1403107200
+4768726,2014,round_2,Spain,Chile,0,2,1403118000
+4768716,2014,round_2,Cameroon,Croatia,0,4,1403128800
+4768738,2014,round_2,Colombia,Côte d'Ivoire,2,1,1403193600
+4768750,2014,round_2,Uruguay,England,2,1,1403204400
+4768740,2014,round_2,Japan,Greece,0,0,1403215200
+4768752,2014,round_2,Italy,Costa Rica,0,1,1403280000
+4768762,2014,round_2,Switzerland,France,2,5,1403290800
+4768764,2014,round_2,Honduras,Ecuador,1,2,1403301600
+4768774,2014,round_2,Argentina,Iran,1,0,1403366400
+4768786,2014,round_2,Germany,Ghana,2,2,1403377200
+4768776,2014,round_2,Nigeria,Bosnia & Herzegovina,1,0,1403388000
+4768798,2014,round_2,Belgium,Russia,1,0,1403452800
+4768800,2014,round_2,South Korea,Algeria,2,4,1403463600
+4768788,2014,round_2,USA,Portugal,2,2,1403474400
+4768732,2014,round_3,Netherlands,Chile,2,0,1403539200
+4768730,2014,round_3,Australia,Spain,0,3,1403539200
+4768710,2014,round_1,Brazil,Croatia,3,1,1402603200
+4768712,2014,round_1,Mexico,Cameroon,1,0,1402675200
+4768722,2014,round_1,Spain,Netherlands,1,5,1402686000
+4768724,2014,round_1,Chile,Australia,3,1,1402696800
+7659892,2018,round_3,Spain,Morocco,2,2,1529949600
+7659889,2018,round_3,Iran,Portugal,1,1,1529949600
+7659894,2018,round_3,Australia,Peru,0,2,1530021600
+7659891,2018,round_3,Denmark,France,0,0,1530021600
+7659906,2018,round_3,Iceland,Croatia,1,2,1530036000
+7659903,2018,round_3,Nigeria,Argentina,1,2,1530036000
+7659905,2018,round_3,Mexico,Sweden,0,3,1530108000
+7659904,2018,round_3,South Korea,Germany,2,0,1530108000
+7659893,2018,round_3,Switzerland,Costa Rica,2,2,1530122400
+7659890,2018,round_3,Serbia,Brazil,0,2,1530122400
+7659895,2018,round_3,Japan,Poland,0,1,1530194400
+7659897,2018,round_3,Senegal,Colombia,0,1,1530194400
+7659901,2018,round_3,Panama,Tunisia,1,2,1530208800
+7659902,2018,round_3,England,Belgium,0,1,1530208800
+7665828,2018,Round of 16,France,Argentina,4,3,1530367200
+7665827,2018,Round of 16,Uruguay,Portugal,2,1,1530381600
+7665832,2018,Round of 16,Spain,Russia,4,5,1530453600
+7665829,2018,Round of 16,Croatia,Denmark,4,3,1530468000
+7665825,2018,Round of 16,Brazil,Mexico,2,0,1530540000
+7665826,2018,Round of 16,Belgium,Japan,3,2,1530554400
+7665831,2018,Round of 16,Sweden,Switzerland,1,0,1530626400
+7665830,2018,Round of 16,Colombia,England,4,5,1530640800
+7693129,2018,Quarterfinals,Uruguay,France,0,2,1530885600
+7693128,2018,Quarterfinals,Brazil,Belgium,1,2,1530900000
+7693130,2018,Quarterfinals,Sweden,England,0,2,1530972000
+7693127,2018,Quarterfinals,Russia,Croatia,5,6,1530986400
+7693134,2018,Semifinals,France,Belgium,1,0,1531245600
+7693132,2018,Semifinals,Croatia,England,2,1,1531332000
+7693133,2018,Match for 3rd place,Belgium,England,2,0,1531576800
+7693131,2018,Final,France,Croatia,4,2,1531666800
+7659860,2018,round_1,France,Australia,2,1,1529143200
+7659864,2018,round_1,Argentina,Iceland,1,1,1529154000
+7659861,2018,round_1,Peru,Denmark,0,1,1529164800
+7659869,2018,round_1,Croatia,Nigeria,2,0,1529175600
+7659866,2018,round_1,Costa Rica,Serbia,0,1,1529236800
+7659868,2018,round_1,Germany,Mexico,0,1,1529247600
+7659863,2018,round_1,Brazil,Switzerland,1,1,1529258400
+7659878,2018,round_1,Sweden,South Korea,1,0,1529323200
+7659886,2018,round_1,Belgium,Panama,3,0,1529334000
+7659882,2018,round_1,Tunisia,England,1,2,1529344800
+7659875,2018,round_1,Colombia,Japan,1,2,1529409600
+7659876,2018,round_1,Poland,Senegal,1,2,1529420400
+7659899,2018,round_2,Russia,Egypt,3,1,1529431200
+7659877,2018,round_2,Portugal,Morocco,1,0,1529496000
+7659872,2018,round_2,Uruguay,Saudi Arabia,1,0,1529506800
+7659871,2018,round_2,Iran,Spain,0,1,1529517600
+7659874,2018,round_2,Denmark,Australia,1,1,1529582400
+7659870,2018,round_2,France,Peru,1,0,1529593200
+7659880,2018,round_2,Argentina,Croatia,0,3,1529604000
+7659898,2018,round_2,Brazil,Costa Rica,2,0,1529668800
+7659883,2018,round_2,Nigeria,Iceland,2,0,1529679600
+7659881,2018,round_2,Serbia,Switzerland,1,2,1529690400
+7659884,2018,round_2,Belgium,Tunisia,5,2,1529755200
+7659888,2018,round_2,South Korea,Mexico,1,2,1529766000
+7659900,2018,round_2,Germany,Sweden,2,1,1529776800
+7659885,2018,round_2,England,Panama,6,1,1529841600
+7659873,2018,round_2,Japan,Senegal,2,2,1529852400
+7659879,2018,round_2,Poland,Colombia,0,3,1529863200
+7659896,2018,round_3,Saudi Arabia,Egypt,2,1,1529935200
+7659887,2018,round_3,Uruguay,Russia,3,0,1529935200
+7659862,2018,round_1,Russia,Saudi Arabia,5,0,1528988400
+7659867,2018,round_1,Egypt,Uruguay,0,1,1529064000
+7659865,2018,round_1,Morocco,Iran,0,1,1529074800
+7659859,2018,round_1,Portugal,Spain,3,3,1529085600
+10230536,2022,round_3,Iran,USA,0,1,1669748400
+10230532,2022,round_3,Wales,England,0,3,1669748400
+10230560,2022,round_3,Australia,Denmark,1,0,1669820400
+10230555,2022,round_3,Tunisia,France,1,0,1669820400
+10230546,2022,round_3,Saudi Arabia,Mexico,1,2,1669834800
+10230547,2022,round_3,Poland,Argentina,0,2,1669834800
+10230531,2022,round_3,Canada,Morocco,1,2,1669906800
+10230535,2022,round_3,Croatia,Belgium,0,0,1669906800
+10230573,2022,round_3,Costa Rica,Germany,2,4,1669921200
+10230554,2022,round_3,Japan,Spain,2,1,1669921200
+10230549,2022,round_3,Ghana,Uruguay,0,2,1669993200
+10230544,2022,round_3,South Korea,Portugal,2,1,1669993200
+10230558,2022,round_3,Serbia,Switzerland,2,3,1670007600
+10230553,2022,round_3,Cameroon,Brazil,1,0,1670007600
+10230638,2022,Round of 16,Netherlands,USA,3,1,1670079600
+10230641,2022,Round of 16,Argentina,Australia,2,1,1670094000
+10230579,2022,Round of 16,France,Poland,3,1,1670166000
+10230632,2022,Round of 16,England,Senegal,3,0,1670180400
+10230582,2022,Round of 16,Japan,Croatia,2,4,1670252400
+10230633,2022,Round of 16,Brazil,South Korea,4,1,1670266800
+10230636,2022,Round of 16,Morocco,Spain,3,0,1670338800
+10230631,2022,Round of 16,Portugal,Switzerland,6,1,1670353200
+10230640,2022,Quarterfinals,Croatia,Brazil,5,3,1670598000
+10230639,2022,Quarterfinals,Netherlands,Argentina,5,6,1670612400
+10230581,2022,Quarterfinals,Morocco,Portugal,1,0,1670684400
+10230634,2022,Quarterfinals,England,France,1,2,1670698800
+10230580,2022,Semifinals,Argentina,Croatia,3,0,1670958000
+10230578,2022,Semifinals,France,Morocco,2,0,1671044400
+10230637,2022,Match for 3rd place,Croatia,Morocco,2,1,1671289200
+10230635,2022,Final,Argentina,France,7,5,1671375600
+10230528,2022,round_1,Argentina,Saudi Arabia,1,2,1669111200
+10230576,2022,round_1,Denmark,Tunisia,0,0,1669122000
+10230565,2022,round_1,Mexico,Poland,0,0,1669132800
+10230563,2022,round_1,France,Australia,4,1,1669143600
+10230570,2022,round_1,Morocco,Croatia,0,0,1669197600
+10230562,2022,round_1,Germany,Japan,1,2,1669208400
+10230571,2022,round_1,Spain,Costa Rica,7,0,1669219200
+10230559,2022,round_1,Belgium,Canada,1,0,1669230000
+10230569,2022,round_1,Switzerland,Cameroon,1,0,1669284000
+10230530,2022,round_1,Uruguay,South Korea,0,0,1669294800
+10230534,2022,round_1,Portugal,Ghana,3,2,1669305600
+10230567,2022,round_1,Brazil,Serbia,2,0,1669316400
+10230556,2022,round_2,Wales,Iran,0,2,1669370400
+10230537,2022,round_2,Qatar,Senegal,1,3,1669381200
+10230529,2022,round_2,Netherlands,Ecuador,1,1,1669392000
+10230557,2022,round_2,England,USA,0,0,1669402800
+10230574,2022,round_2,Tunisia,Australia,0,1,1669456800
+10230542,2022,round_2,Poland,Saudi Arabia,2,0,1669467600
+10230577,2022,round_2,France,Denmark,2,1,1669478400
+10230540,2022,round_2,Argentina,Mexico,2,0,1669489200
+10230564,2022,round_2,Japan,Costa Rica,0,1,1669543200
+10230545,2022,round_2,Belgium,Morocco,0,2,1669554000
+10230550,2022,round_2,Croatia,Canada,4,1,1669564800
+10230575,2022,round_2,Spain,Germany,1,1,1669575600
+10230568,2022,round_2,Cameroon,Serbia,3,3,1669629600
+10230552,2022,round_2,South Korea,Ghana,2,3,1669640400
+10230561,2022,round_2,Brazil,Switzerland,1,0,1669651200
+10230539,2022,round_2,Portugal,Uruguay,2,0,1669662000
+10230551,2022,round_3,Ecuador,Senegal,1,2,1669734000
+10230538,2022,round_3,Netherlands,Qatar,2,0,1669734000
+10230541,2022,round_1,Qatar,Ecuador,0,2,1668960000
+10230543,2022,round_1,England,Iran,6,2,1669035600
+10230533,2022,round_1,Senegal,Netherlands,0,2,1669046400
+10230548,2022,round_1,USA,Wales,1,1,1669057200
+12813014,2026,Round of 32,Germany,Paraguay,4,5,1782765000
+12812998,2026,Round of 32,Netherlands,Morocco,3,4,1782781200
+12812989,2026,Round of 32,Côte d'Ivoire,Norway,1,2,1782838800
+12812995,2026,Round of 32,France,Sweden,3,0,1782853200
+12813001,2026,Round of 32,Mexico,Ecuador,2,0,1782871200
+12813020,2026,Round of 32,England,DR Congo,2,1,1782921600
+12813013,2026,Round of 32,Belgium,Senegal,3,2,1782936000
+12812992,2026,Round of 32,USA,Bosnia & Herzegovina,2,0,1782950400
+12813004,2026,Round of 32,Spain,Austria,3,0,1783018800
+12812997,2026,Round of 32,Portugal,Croatia,2,1,1783033200
+12813019,2026,Round of 32,Switzerland,Algeria,2,0,1783047600
+12813018,2026,Round of 32,Australia,Egypt,3,5,1783101600
+12812999,2026,Round of 32,Argentina,Cabo Verde,3,2,1783116000
+12813011,2026,Round of 32,Colombia,Ghana,1,0,1783128600
+12813009,2026,Round of 16,Canada,Morocco,0,3,1783184400
+12813010,2026,Round of 16,Paraguay,France,0,1,1783198800
+12813006,2026,Round of 16,Brazil,Norway,1,2,1783281600
+12813007,2026,Round of 16,Mexico,England,2,3,1783299600
+12812990,2026,Round of 16,Portugal,Spain,0,1,1783364400
+12813002,2026,Round of 16,USA,Belgium,1,4,1783382400
+12812993,2026,Round of 16,Argentina,Egypt,3,2,1783440000
+12812991,2026,Round of 16,Switzerland,Colombia,4,3,1783454400
+12813016,2026,Quarterfinals,France,Morocco,2,0,1783627200
+12812994,2026,Quarterfinals,Spain,Belgium,2,1,1783710000
+12813017,2026,Quarterfinals,Norway,England,1,2,1783803600
+12813015,2026,Quarterfinals,Argentina,Switzerland,3,1,1783818000
+12813008,2026,Semifinals,France,Spain,0,2,1784055600
+12812996,2026,Semifinals,England,Argentina,1,2,1784142000
+12813003,2026,Match for 3rd place,France,England,4,6,1784408400
+12813005,2026,Final,Spain,Argentina,1,0,1784487600
+15186858,2026,round_2,Portugal,Uzbekistan,5,0,1782234000
+15186672,2026,round_2,England,Ghana,0,0,1782244800
+15186520,2026,round_2,Panama,Croatia,0,1,1782255600
+15186713,2026,round_2,Colombia,DR Congo,1,0,1782266400
+15186829,2026,round_3,Bosnia & Herzegovina,Qatar,3,1,1782327600
+15186821,2026,round_3,Switzerland,Canada,2,1,1782327600
+15186864,2026,round_3,Morocco,Haiti,4,2,1782338400
+15186861,2026,round_3,Scotland,Brazil,0,3,1782338400
+15186744,2026,round_3,South Africa,South Korea,1,0,1782349200
+15186732,2026,round_3,Czechia,Mexico,0,3,1782349200
+15186908,2026,round_3,Curaçao,Côte d'Ivoire,0,2,1782417600
+15186907,2026,round_3,Ecuador,Germany,2,1,1782417600
+15186972,2026,round_3,Japan,Sweden,1,1,1782428400
+15186973,2026,round_3,Tunisia,Netherlands,1,3,1782428400
+15186891,2026,round_3,Paraguay,Australia,0,0,1782439200
+15186887,2026,round_3,Türkiye,USA,3,2,1782439200
+15186771,2026,round_3,Senegal,Iraq,5,0,1782500400
+15186537,2026,round_3,Norway,France,1,4,1782500400
+15186803,2026,round_3,Cabo Verde,Saudi Arabia,0,0,1782518400
+15186841,2026,round_3,Uruguay,Spain,0,1,1782518400
+15186822,2026,round_3,New Zealand,Belgium,1,5,1782529200
+15186828,2026,round_3,Egypt,Iran,1,1,1782529200
+15186624,2026,round_3,Croatia,Ghana,2,1,1782594000
+15186676,2026,round_3,Panama,England,0,2,1782594000
+15186717,2026,round_3,DR Congo,Uzbekistan,3,1,1782603000
+15186696,2026,round_3,Colombia,Portugal,0,0,1782603000
+15186747,2026,round_3,Algeria,Austria,3,3,1782612000
+15186734,2026,round_3,Jordan,Argentina,1,3,1782612000
+12813000,2026,Round of 32,South Africa,Canada,0,1,1782673200
+12813012,2026,Round of 32,Brazil,Japan,2,1,1782752400
+15186811,2026,round_1,Saudi Arabia,Uruguay,1,1,1781560800
+15186832,2026,round_1,Iran,New Zealand,2,2,1781571600
+15186501,2026,round_1,France,Senegal,3,1,1781636400
+15186773,2026,round_1,Iraq,Norway,1,4,1781647200
+15186854,2026,round_1,Argentina,Algeria,3,0,1781658000
+15186751,2026,round_1,Austria,Jordan,3,1,1781668800
+15186709,2026,round_1,Portugal,DR Congo,1,1,1781715600
+15186504,2026,round_1,England,Croatia,4,2,1781726400
+15186687,2026,round_1,Ghana,Panama,1,0,1781737200
+15186722,2026,round_1,Uzbekistan,Colombia,1,3,1781748000
+15186731,2026,round_2,Czechia,South Africa,1,1,1781798400
+15186806,2026,round_2,Switzerland,Bosnia & Herzegovina,4,1,1781809200
+15186798,2026,round_2,Canada,Qatar,6,0,1781820000
+15186490,2026,round_2,Mexico,South Korea,1,0,1781830800
+15186878,2026,round_2,USA,Australia,2,0,1781895600
+15186859,2026,round_2,Scotland,Morocco,0,1,1781906400
+15186856,2026,round_2,Brazil,Haiti,3,0,1781915400
+15186879,2026,round_2,Türkiye,Paraguay,0,1,1781924400
+15186957,2026,round_2,Netherlands,Sweden,5,1,1781974800
+15186905,2026,round_2,Germany,Côte d'Ivoire,2,1,1781985600
+15186906,2026,round_2,Ecuador,Curaçao,0,0,1782000000
+15186963,2026,round_2,Tunisia,Japan,0,4,1782014400
+15186840,2026,round_2,Spain,Saudi Arabia,4,0,1782057600
+15186499,2026,round_2,Belgium,Iran,0,0,1782068400
+15186800,2026,round_2,Uruguay,Cabo Verde,2,2,1782079200
+15186827,2026,round_2,New Zealand,Egypt,1,3,1782090000
+15186502,2026,round_2,Argentina,Austria,2,0,1782147600
+15186769,2026,round_2,France,Iraq,3,0,1782162000
+15186770,2026,round_2,Norway,Senegal,3,2,1782172800
+15186740,2026,round_2,Jordan,Algeria,1,2,1782183600
+15186710,2026,round_1,Mexico,South Africa,2,0,1781204400
+15186720,2026,round_1,South Korea,Czechia,2,1,1781229600
+15186836,2026,round_1,Canada,Bosnia & Herzegovina,1,1,1781290800
+15186873,2026,round_1,USA,Paraguay,4,1,1781312400
+15186526,2026,round_1,Qatar,Switzerland,1,1,1781377200
+15186850,2026,round_1,Brazil,Morocco,1,1,1781388000
+15186853,2026,round_1,Haiti,Scotland,0,1,1781398800
+15186874,2026,round_1,Australia,Türkiye,2,0,1781409600
+15186899,2026,round_1,Germany,Curaçao,7,1,1781456400
+15186945,2026,round_1,Netherlands,Japan,2,2,1781467200
+15186904,2026,round_1,Côte d'Ivoire,Ecuador,1,0,1781478000
+15186951,2026,round_1,Sweden,Tunisia,5,1,1781488800
+15186783,2026,round_1,Spain,Cabo Verde,0,0,1781539200
+15186837,2026,round_1,Belgium,Egypt,1,1,1781550000

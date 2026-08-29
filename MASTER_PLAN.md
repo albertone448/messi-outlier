@@ -40,17 +40,17 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 
 ---
 
-## PARTE 2 — Fase 1: Extracción completa de datos
+## PARTE 2 — Fase 1: Extracción completa de datos — COMPLETA
 
-- [ ] 2.1 Definir la lista completa de partidos de Mundiales 1966-2026 a extraer (usar `get_match_dicts` por año, no solo el caso de prueba)
-- [ ] 2.2 Escribir el script de extracción completo en `src/` (reutilizable, a diferencia de los scripts de validación puntual que quedaron en `scripts/`)
-- [ ] 2.3 Implementar manejo de rate limiting razonable (no golpear la API de forma agresiva, ver nota de transparencia en `METHODOLOGY.md`)
-- [ ] 2.4 Definir naming convention consistente para los archivos de `data/raw/` (un archivo o carpeta por partido/torneo)
-- [ ] 2.5 Correr la extracción completa
-- [ ] 2.6 Construir `notebooks/01_extraction_coverage.ipynb`: cuantificar cobertura real por Mundial (qué proporción de partidos tiene datos completos, parciales, o solo básicos)
-- [ ] 2.7 Identificar si hay Mundiales dentro del rango 1966-2026 con cobertura significativamente peor que 1986/2022
-- [ ] 2.8 Decidir cómo se tratan partidos con cobertura incompleta (excluir al jugador solo de ese partido vs. excluirlo del análisis completo si tiene muchos partidos incompletos)
-- [ ] 2.9 Documentar hallazgos de cobertura y la decisión del punto anterior en `METHODOLOGY.md`
+- [x] 2.1 Definir la lista completa de partidos de Mundiales 1966-2026 a extraer (usar `get_match_dicts` por año, no solo el caso de prueba)
+- [x] 2.2 Escribir el script de extracción completo en `src/` (reutilizable, a diferencia de los scripts de validación puntual que quedaron en `scripts/`)
+- [x] 2.3 Implementar manejo de rate limiting razonable (no golpear la API de forma agresiva, ver nota de transparencia en `METHODOLOGY.md`)
+- [x] 2.4 Definir naming convention consistente para los archivos de `data/raw/` (un archivo por partido en `data/raw/lineups/{match_id}.csv`, manifiesto en `data/raw/matches_manifest.csv`)
+- [x] 2.5 Correr la extracción completa (900/900 partidos, sin fallos pendientes; se resolvió en el camino un bloqueo anti-bot 403 con reintentos + cooldown automático, y un bug de botasaurus que pausaba la ejecución esperando input humano, corregido con `ENV=production`)
+- [x] 2.6 Construir `notebooks/01_extraction_coverage.ipynb`: cuantificar cobertura real por Mundial
+- [x] 2.7 Identificar si hay Mundiales dentro del rango 1966-2026 con cobertura significativamente peor que 1986/2022 (no se encontraron huecos a nivel de archivo; validación adicional con Messi en sus 6 Mundiales, incluyendo su sequía goleadora real de 2010)
+- [ ] 2.8 Decidir cómo se tratan huecos a nivel de campo individual (no de archivo) — pendiente para la Fase 2, cuando se trabaje con las columnas reales
+- [x] 2.9 Documentar hallazgos de cobertura y las decisiones técnicas del camino en `METHODOLOGY.md`
 - [ ] 2.10 Commit de Fase 1
 
 ---
