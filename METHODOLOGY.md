@@ -1,3 +1,9 @@
+<a id="english"></a>
+
+**[English](#english) | [Español](#español)**
+
+---
+
 # Methodology Notes
 
 This document is the project's methodological memory: decisions made, why they were made, tools and techniques used, and things ruled out along the way. It's not a sequential plan or a task tracker, that lives in `MASTER_PLAN.md`. This document gets updated as decisions are made, including decisions that get reversed later. The goal is to be able to explain and defend every choice in an interview, not to keep a changelog of code.
@@ -103,6 +109,12 @@ Every chart or table that includes a manually added reference player must visual
 - Whether "top 5" or a percentile-based cutoff defines the "elite" range per role. This must be justified methodologically, not chosen after seeing which one favors Messi.
 - Whether FBref and SofaScore metrics can be safely combined given definitional differences.
 - Whether pre-1966 World Cups can be added to the population later, pending further spot-checks.
+
+---
+
+<a id="español"></a>
+
+**[English](#english) | [Español](#español)**
 
 ---
 
