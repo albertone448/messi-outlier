@@ -57,16 +57,17 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 
 ---
 
-## PARTE 3 — Fase 2: Limpieza y construcción de la población
+## PARTE 3 — Fase 2: Limpieza y construcción de la población — COMPLETA
 
-- [ ] 3.1 Aplicar filtro de rango de años (1966-2026)
-- [ ] 3.2 Aplicar filtro de exclusión de arqueros
-- [ ] 3.3 Aplicar la decisión NaN=0 en campos de conteo de eventos
-- [ ] 3.4 Construir, además del dataset de población a nivel de carrera, las métricas totales de longevidad/trayectoria por jugador (Mundiales disputados, partidos jugados, rondas alcanzadas), documentadas como observación separada del cálculo de élite por rol, no mezcladas con el per 90
-- [ ] 3.5 Construir `notebooks/02_population_build.ipynb`
-- [ ] 3.6 Exportar `data/processed/population.csv`
-- [ ] 3.7 Documentar la decisión del punto 3.4 y cualquier otra decisión de limpieza relevante en `METHODOLOGY.md`
-- [ ] 3.8 Commit de Fase 2
+- [x] 3.1 Aplicar filtro de rango de años (1966-2026) — ya viene aplicado desde la extracción (Fase 1)
+- [x] 3.2 Resolver la ambigüedad de las columnas duplicadas `position`/`position.1` (perfil general vs. táctica del partido, confirmado leyendo el código fuente de ScraperFC) y aplicar el filtro de exclusión de arqueros por aparición-partido usando `position.1`, no por jugador completo
+- [x] 3.3 Aplicar la decisión NaN=0 solo a columnas genuinas de conteo de eventos, después de descartar primero a los suplentes no utilizados (filas con 0 minutos o minutos ausentes), dejando intactas columnas limitadas por época como `expectedGoals`
+- [x] 3.4 Construir, además del dataset de población a nivel de carrera, los totales de trayectoria por jugador (partidos jugados, Mundiales disputados), documentados como observación separada del cálculo de élite por rol, no mezclados con el per 90
+- [x] 3.5 Chequeo de consistencia interna (accurate ≤ total en pases, regates, centros, tiros) — cero violaciones
+- [x] 3.6 Construir `notebooks/02_population_build.ipynb`
+- [x] 3.7 Exportar `data/processed/population.csv` (5636 jugadores de campo, nivel jugador-carrera, solo totales, sin per 90)
+- [x] 3.8 Documentar todas las decisiones de limpieza de esta fase en `METHODOLOGY.md`
+- [ ] 3.9 Commit de Fase 2
 
 ---
 

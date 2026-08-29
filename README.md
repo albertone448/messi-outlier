@@ -1,3 +1,9 @@
+<a id="english"></a>
+
+**[English](#english) | [Español](#español)**
+
+---
+
 # Messi: Outlier
 
 Statistical analysis of how singular Lionel Messi's profile is across World Cups, measured against the full population of historical World Cup players rather than a handful of hand-picked comparisons.
@@ -59,6 +65,12 @@ python scripts/validate_maradona_1986.py
 ```
 
 Right now that script is the only thing that runs. It checks, against the real SofaScore API, whether the 1986 World Cup has the level of detail this project needs.
+
+---
+
+<a id="español"></a>
+
+**[English](#english) | [Español](#español)**
 
 ---
 
