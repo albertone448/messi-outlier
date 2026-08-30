@@ -34,7 +34,7 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [x] Definir los 4 roles funcionales candidatos (finalizador, desequilibrante, creador, organizador) con su arquetipo de jugador
 - [x] Declarar expectativa pre-registrada sobre el rol organizador (punto relativamente más débil de Messi, declarado antes de ver números)
 - [x] Definir método de selección de líderes por rol: líder estadístico (dato) + adiciones manuales de referencia (comunicación), claramente etiquetadas y nunca mezcladas
-- [ ] Definir umbral mínimo de minutos — pendiente, se resuelve en Parte 4 con distribuciones reales en mano
+- [x] Definir umbral mínimo de minutos — 270 minutos (3 partidos), ver Parte 4
 - [ ] Definir criterio de "élite" por rol (top 5 vs. corte por percentil) — pendiente, se resuelve en Parte 6 con datos reales en mano
 - [x] Decidir nivel de agregación de la población: jugador-carrera (una fila por jugador, sumando todos sus Mundiales 1966-2026), no jugador-torneo
 - [x] Decidir conservar tanto totales como métricas per 90, cada uno etiquetado para lo que mide, con el detalle de longevidad/rondas alcanzadas documentado como observación separada del cálculo de élite por rol
@@ -65,7 +65,7 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [x] 3.4 Construir, además del dataset de población a nivel de carrera, los totales de trayectoria por jugador (partidos jugados, Mundiales disputados), documentados como observación separada del cálculo de élite por rol, no mezclados con el per 90
 - [x] 3.5 Chequeo de consistencia interna (accurate ≤ total en pases, regates, centros, tiros) — cero violaciones
 - [x] 3.6 Construir `notebooks/02_population_build.ipynb`
-- [x] 3.7 Exportar `data/processed/population.csv` (5636 jugadores de campo, nivel jugador-carrera, solo totales, sin per 90)
+- [x] 3.7 Exportar `data/processed/population.csv` (5636 jugadores de campo, nivel jugador-carrera, 29 columnas incluyendo `totalOppositionHalfPasses`/`accurateOppositionHalfPasses`, solo totales, sin per 90)
 - [x] 3.8 Documentar todas las decisiones de limpieza de esta fase en `METHODOLOGY.md`
 - [ ] 3.9 Commit de Fase 2
 
@@ -76,8 +76,8 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [ ] 4.1 Revisar disponibilidad histórica real de cada métrica candidata contra la extracción completa (no solo el caso de prueba de la Fase 0)
 - [ ] 4.2 Descartar métricas mal cubiertas o inconsistentes entre épocas, documentando por qué
 - [ ] 4.3 Calcular métricas per 90 minutos para las métricas que sobreviven
-- [ ] 4.4 Graficar la distribución real de minutos jugados en la población
-- [ ] 4.5 Fijar el umbral mínimo de minutos usando esa distribución (no un número arbitrario elegido antes de ver los datos)
+- [x] 4.4 Graficar la distribución real de minutos jugados en la población
+- [x] 4.5 Fijar el umbral mínimo de minutos: 270 (probando media/std de goles per 90 en varios cortes, el std toca mínimo justo ahí y sube después; 270 min = fase de grupos completa del formato clásico de 32 equipos)
 - [ ] 4.6 Justificar y documentar el umbral elegido en `METHODOLOGY.md`
 - [ ] 4.7 Construir `notebooks/03_role_metrics.ipynb`
 - [ ] 4.8 Commit de Fase 3

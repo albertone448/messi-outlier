@@ -75,7 +75,7 @@ SofaScore is accessed through its internal API (no official public API exists), 
 
 **Position scope:** the population is built by functional role, not nominal position (see "Functional roles" below), so defenders and midfielders are not excluded upfront just for being labeled as such. **Goalkeepers are excluded from the base population (decided 2026-08-27):** all four roles are structurally offensive/build-up oriented, and a goalkeeper's passing or distribution numbers aren't meaningfully comparable to an outfield organizer's. Reversible if a concrete reason to include them comes up later.
 
-**Minimum-minutes threshold:** not yet defined. Will be set once real per-90 distributions are in hand, so the threshold is chosen by looking at where small-sample noise actually shows up in the data, not picked arbitrarily beforehand.
+**Minimum-minutes threshold (decided 2026-08-29): 270 minutes** (3 full matches). Chosen by testing goals-per-90 mean and standard deviation across candidate thresholds (1, 90, 180, ..., 900 minutes) on the real population, not picked in advance. The standard deviation hits its minimum exactly at 270 minutes (0.199) and rises afterward (0.203 at 360, up to 0.228 at 900), and the mean starts climbing at the same point (0.114 at 270, up to 0.181 at 900). Below 270, small-sample noise dominates (a single early goal produces an absurd per-90 rate, max goals/90 falls from 9.00 at 1 minute to 1.50 by 270). Above 270, raising the threshold further stops reducing noise and instead introduces a selection bias in the other direction, filtering toward players who were kept on the pitch specifically because they were performing well. 270 minutes also has a football-meaningful reading: it's a complete group stage under the standard (now-retired) 32-team, 3-match format, not an arbitrary round number. Leaves 2488 of 5636 players (44.1%).
 
 **Aggregation level (decided 2026-08-28):** the population is built at player-career level, one row per player summing all their World Cup matches across the full 1966-2026 range, not one row per player-per-tournament. The central question is about a player's overall World Cup profile, not about a specific edition, and player-tournament level would let players with many World Cups appear multiple times in the population, which muddies "how many roles is this player elite in" into "elite in which edition." Tournament-by-tournament detail isn't discarded, it stays available as a secondary view (e.g. to show consistency over time), but the Phase 5 multi-role elite count runs on the career-level population.
 
@@ -105,7 +105,6 @@ Every chart or table that includes a manually added reference player must visual
 
 ## Open decisions (not yet made)
 
-- Minimum-minutes threshold for per-90 comparisons (see "Population definition" above).
 - Whether "top 5" or a percentile-based cutoff defines the "elite" range per role. This must be justified methodologically, not chosen after seeing which one favors Messi.
 - Whether FBref and SofaScore metrics can be safely combined given definitional differences.
 - Whether pre-1966 World Cups can be added to the population later, pending further spot-checks.
@@ -189,7 +188,7 @@ Se accede a SofaScore a través de su API interna (no existe una API pública of
 
 **Alcance de posiciones:** la población se construye por rol funcional, no por posición nominal (ver "Roles funcionales" abajo), así que defensas y mediocampistas no quedan excluidos de entrada solo por estar etiquetados así. **Los arqueros quedan excluidos de la población base (decidido 2026-08-27):** los cuatro roles son estructuralmente ofensivos/de construcción de juego, y los números de pase o distribución de un arquero no son comparables de forma significativa a los de un organizador de campo. Es reversible si más adelante aparece una razón concreta para incluirlos.
 
-**Umbral mínimo de minutos:** todavía no definido. Se va a fijar una vez que se tengan las distribuciones reales per 90 en mano, para elegir el umbral mirando dónde aparece de verdad el ruido de muestra pequeña en los datos, no eligiéndolo arbitrariamente de antemano.
+**Umbral mínimo de minutos (decidido 2026-08-29): 270 minutos** (3 partidos completos). Elegido probando la media y la desviación estándar de goles per 90 en varios umbrales candidatos (1, 90, 180, ..., 900 minutos) sobre la población real, no elegido de antemano. La desviación estándar toca su mínimo justo en 270 minutos (0.199) y sube después (0.203 en 360, hasta 0.228 en 900), y la media empieza a subir en ese mismo punto (0.114 en 270, hasta 0.181 en 900). Por debajo de 270, domina el ruido de muestra chica (un solo gol temprano dispara una tasa per 90 absurda, el máximo de goles/90 cae de 9.00 con 1 minuto a 1.50 en 270). Por encima de 270, subir más el umbral deja de reducir ruido y en cambio introduce un sesgo de selección en la otra dirección, filtrando hacia jugadores que se quedaron en cancha específicamente porque rendían bien. 270 minutos también tiene una lectura futbolísticamente significativa: es una fase de grupos completa bajo el formato estándar (hoy extinto) de 32 equipos y 3 partidos, no un número redondo arbitrario. Deja 2488 de 5636 jugadores (44.1%).
 
 **Nivel de agregación (decidido 2026-08-28):** la población se construye a nivel jugador-carrera, una fila por jugador sumando todos sus partidos de Mundial en todo el rango 1966-2026, no una fila por jugador-por-torneo. La pregunta central es sobre el perfil mundialista general de un jugador, no sobre una edición específica, y el nivel jugador-torneo dejaría que jugadores con muchos Mundiales aparezcan varias veces en la población, lo que convierte "¿en cuántos roles es élite este jugador?" en algo ambiguo, "¿élite en qué edición?". El detalle por torneo no se descarta, queda disponible como vista secundaria (por ejemplo, para mostrar consistencia en el tiempo), pero el conteo de élite multi-rol de la Fase 5 corre sobre la población a nivel de carrera.
 
@@ -219,7 +218,6 @@ Todo gráfico o tabla que incluya un jugador de referencia agregado manualmente 
 
 ## Decisiones abiertas (aún no tomadas)
 
-- Umbral mínimo de minutos para comparaciones per 90 (ver "Definición de población" arriba).
 - Si "top 5" o un corte basado en percentil define el rango de "élite" por rol. Esto debe justificarse metodológicamente, no elegirse después de ver cuál favorece a Messi.
 - Si las métricas de FBref y SofaScore se pueden combinar con seguridad dado que podrían definirse distinto.
 - Si los Mundiales anteriores a 1966 se pueden agregar a la población más adelante, pendiente de más spot-checks.
