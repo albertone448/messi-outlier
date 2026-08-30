@@ -98,17 +98,32 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 
 ---
 
-## PARTE 6 — Fase 5: Conteo de élite multi-rol (evidencia central del proyecto)
+## PARTE 6 — Fase 5: Múltiples vistas del rendimiento multi-rol (evidencia central del proyecto)
 
-- [ ] 6.1 Definir y justificar el criterio de "élite" por rol (top 5 vs. percentil), apoyándose en lo observado en las fases anteriores
-- [ ] 6.2 Para cada jugador de la población, calcular en cuántos de los 4 roles cae en rango de élite
-- [ ] 6.3 Construir la distribución completa de la población (cuántos jugadores caen en 0, 1, 2, 3 o 4 roles de élite)
-- [ ] 6.4 Ubicar a Messi dentro de esa distribución
-- [ ] 6.5 Ubicar también a los jugadores de referencia (Cristiano, Neymar, Mbappé, Ronaldinho, etc.) en la misma distribución, con el mismo cálculo
-- [ ] 6.6 Escribir el hallazgo central en markdown, incluso si contradice parcial o totalmente la hipótesis del proyecto
-- [ ] 6.7 Construir `notebooks/05_multirole_elite_count.ipynb`
-- [ ] 6.8 Documentar el criterio de élite elegido y el resultado en `METHODOLOGY.md`
-- [ ] 6.9 Commit de Fase 5
+Replanteado 2026-08-29: no hay una sola respuesta correcta a "¿es Messi
+único en los cuatro roles?", hay varias formas legítimas de medirlo
+(conteo binario de élite vs. promedio continuo; distintos umbrales de
+percentil; distintos pisos de minutos), y cada una puede mostrar algo
+distinto (el caso de Maradona, invisible en el conteo binario por su
+organizador bajo, pero 2do en promedio con muestra seria, es la prueba de
+por qué). En vez de elegir una vista y presentarla como "la respuesta",
+la Fase 5 combina todas en una sola tabla de síntesis, dejando explícito
+qué depende de qué elección metodológica.
+
+- [x] 6.1 Definir y justificar el criterio de "élite" por rol: percentil, no top-N fijo. Probado en 90/95/99, con 85 usado solo como diagnóstico de sensibilidad, no como criterio oficial (aclarado después de una confusión propia en el camino)
+- [x] 6.2 Para cada jugador de la población, calcular en cuántos de los 4 roles cae en rango de élite, en los 3 umbrales oficiales
+- [x] 6.3 Construir la distribución completa de la población en cada umbral (cuántos jugadores caen en 0, 1, 2, 3 o 4 roles de élite)
+- [x] 6.4 Ubicar a Messi dentro de esa distribución en cada umbral
+- [x] 6.5 Identificar el techo real observado en cada umbral y quiénes lo alcanzan (no solo Messi, toda la población)
+- [x] 6.6 Investigar los casos que llegan al techo con muestra chica (Zidane/Cruyff/Onega en el umbral 85), confirmar que son datos reales (no error), y chequear con evidencia si hay sesgo de muestra chica residual en la cola extrema pese al umbral de 270 minutos ya validado
+- [x] 6.7 Agregar el promedio de puntaje de rol (las 4 métricas percentil promediadas) como vista complementaria al conteo binario, para capturar la diferencia entre "perfil parejo cerca del umbral" y "perfil con picos que domina en varios roles y falla por poco en uno"
+- [x] 6.8 Repetir tanto el conteo de élite como el promedio con pisos de minutos más altos (900, 1500), como chequeo de sensibilidad transparente al umbral oficial de 270, sin reemplazarlo
+- [x] 6.9 Construir una tabla de síntesis única (no fragmentos dispersos) con, para un conjunto relevante de jugadores (Messi, jugadores de referencia, y quien aparezca en el top de cualquiera de las vistas anteriores): conteo de élite en 90/95/99, promedio de puntaje de rol en 270/900/1500, y los totales de carrera (minutos, partidos, Mundiales) de la Parte 1
+- [x] 6.10 Interpretación final integrando todas las vistas: qué se sostiene en todas las combinaciones de criterio, qué depende de cuál se elija, y qué le pasó específicamente a Maradona como ejemplo del porqué de esto
+- [x] 6.11 Escribir el hallazgo central en markdown, incluso si contradice parcial o totalmente la hipótesis del proyecto (ninguna forma de "élite en los 4 a la vez" está respaldada; sí lo está "mejor promedio multi-rol entre muestras de carrera reales", con Maradona como segundo lugar genuino y Cristiano Ronaldo como contraste directo)
+- [x] 6.12 Construir `notebooks/05_multirole_elite_count.ipynb`
+- [x] 6.13 Documentar todo el criterio y el resultado en `METHODOLOGY.md`, incluyendo el principio interpretativo de que esto no es un concurso de dueño único
+- [ ] 6.14 Commit de Fase 5
 
 ---
 
@@ -147,4 +162,4 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 | Especialistas por rol para el radar chart (Fase 6) | `notebooks/06_role_specialists_reference.ipynb` |
 | Dataset final e integración | `notebooks/XX_dataset_final.ipynb` |
 | Decisiones metodológicas, herramientas y razones | `METHODOLOGY.md` |
-| Tableau | Fuera del repo de notebooks, en Tableau Public |s
+| Tableau | Fuera del repo de notebooks, en Tableau Public |
