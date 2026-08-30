@@ -71,26 +71,29 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 
 ---
 
-## PARTE 4 — Fase 3: Métricas por rol y normalización per 90
+## PARTE 4 — Fase 3: Métricas por rol y normalización per 90 — COMPLETA
 
-- [ ] 4.1 Revisar disponibilidad histórica real de cada métrica candidata contra la extracción completa (no solo el caso de prueba de la Fase 0)
-- [ ] 4.2 Descartar métricas mal cubiertas o inconsistentes entre épocas, documentando por qué
-- [ ] 4.3 Calcular métricas per 90 minutos para las métricas que sobreviven
+- [x] 4.1 Revisar disponibilidad histórica real de cada métrica candidata contra la extracción completa (no solo el caso de prueba de la Fase 0)
+- [x] 4.2 Descartar métricas mal cubiertas o inconsistentes entre épocas, documentando por qué (xG/xA solo 2022-2026, conducción progresiva con hueco 1978-2002)
+- [x] 4.3 Calcular métricas per 90 minutos para las métricas que sobreviven
 - [x] 4.4 Graficar la distribución real de minutos jugados en la población
 - [x] 4.5 Fijar el umbral mínimo de minutos: 270 (probando media/std de goles per 90 en varios cortes, el std toca mínimo justo ahí y sube después; 270 min = fase de grupos completa del formato clásico de 32 equipos)
-- [ ] 4.6 Justificar y documentar el umbral elegido en `METHODOLOGY.md`
-- [ ] 4.7 Construir `notebooks/03_role_metrics.ipynb`
-- [ ] 4.8 Commit de Fase 3
+- [x] 4.6 Justificar y documentar el umbral elegido en `METHODOLOGY.md`
+- [x] 4.7 Clasificar las 21 métricas sobrevivientes en los 4 roles funcionales (16 asignadas, 5 excluidas del framework por no describir un rol con precisión), con definiciones verificadas contra el glosario del proveedor de datos, no asumidas por el nombre de columna
+- [x] 4.8 Construir `notebooks/03_role_metrics.ipynb`
+- [x] 4.9 Exportar `data/processed/role_metrics.csv` (2488 jugadores que cumplen el umbral, 45 columnas: totales, per-90 y metadata)
+- [ ] 4.10 Commit de Fase 3
 
 ---
 
-## PARTE 5 — Fase 4: Relación entre roles
+## PARTE 5 — Fase 4: Relación entre roles — COMPLETA
 
-- [ ] 5.1 Calcular la matriz de correlación entre las 4 dimensiones de rol sobre la población completa
-- [ ] 5.2 Visualizar (heatmap o scatter matrix)
-- [ ] 5.3 Evaluar si el patrón respalda que los roles se comportan como dimensiones estadísticamente distintas (sección 12 de las instrucciones del proyecto)
-- [ ] 5.4 Construir `notebooks/04_role_correlations.ipynb`
-- [ ] 5.5 Documentar el hallazgo, sea cual sea, en `METHODOLOGY.md`
+- [x] 5.1 Calcular la matriz de correlación entre las 4 dimensiones de rol sobre la población calificada (n=2488), combinadas primero en puntaje compuesto por percentil (no promedio crudo)
+- [x] 5.2 Visualizar (heatmap)
+- [x] 5.3 Evaluar si el patrón respalda que los roles se comportan como dimensiones estadísticamente distintas (sección 12 de las instrucciones del proyecto): sí, pero con matices — los 3 roles ofensivos correlacionan moderado entre sí (0.49-0.58), organizador está cerca de ser independiente de los tres (0.02-0.30)
+- [x] 5.4 Construir `notebooks/04_role_correlations.ipynb`
+- [x] 5.5 Documentar el hallazgo en `METHODOLOGY.md`, incluyendo la razón de diseño de roles y la predicción pre-registrada para la Fase 5 (percentil 84 de Messi en organizador, y que la correlación poblacional no garantiza rendimiento individual correlacionado)
+- [x] 5.7 Exportar `data/processed/role_scores.csv` (2488 jugadores, 4 puntajes de rol por percentil)
 - [ ] 5.6 Commit de Fase 4
 
 ---
@@ -144,4 +147,4 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 | Especialistas por rol para el radar chart (Fase 6) | `notebooks/06_role_specialists_reference.ipynb` |
 | Dataset final e integración | `notebooks/XX_dataset_final.ipynb` |
 | Decisiones metodológicas, herramientas y razones | `METHODOLOGY.md` |
-| Tableau | Fuera del repo de notebooks, en Tableau Public |
+| Tableau | Fuera del repo de notebooks, en Tableau Public |s
