@@ -146,6 +146,7 @@ qué depende de qué elección metodológica.
 - [x] 8.2.1 Construir 4 visualizaciones previas en el mismo notebook (promedio vs. minutos de carrera, distribución de roles de élite, coordenadas paralelas de Messi vs. destacados multi-rol, coordenadas paralelas de Messi vs. top-5 por rol individual), guardadas en `reports/figures/`, como boceto de trabajo antes del dashboard real
 - [x] 8.2.2 Documentar la interpretación del arco de carrera (minutos de juventud/veteranía como capa de dificultad adicional, razonada pero no demostrable como contrafactual) y la nota de opinión sobre el rol finalizador, ambas etiquetadas explícitamente como interpretación/opinión, no como hallazgo estadístico
 - [x] 8.2.3 Commit de la Fase de integración final y visualizaciones previas
+- [x] 8.2.4 Agregar gráficos de barras top-10 (totales crudos, 2 métricas principales por rol + minutos de carrera) y revisar los totales de Messi específicamente contra jugadores con minutos de carrera comparables o mayores (Maldini, Matthäus, Modrić, Mascherano, Lahm), no solo contra la población general — confirma el patrón en 3 de 4 roles y consistente con la debilidad relativa de organizador ya identificada en la Fase 4
 - [ ] 8.3 Diseñar el dashboard en Tableau Public (filtros por jugador, torneo, rol, métrica)
 - [ ] 8.4 Publicar el dashboard
 - [ ] 8.5 Agregar el link del dashboard al README
