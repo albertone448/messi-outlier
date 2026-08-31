@@ -123,6 +123,12 @@ Unlike Phases 0-5, this phase doesn't produce evidence for the central question,
 
 **Result:** `data/processed/role_specialists.csv`, 12 rows, explicitly labeled `statistical_leader` or `reference_addition`, ready to feed the Tableau radar chart without ambiguity between data and communication choices. A top-10-per-role reference table (at both 270 and 900 minutes) is also kept in the notebook as a visual record, not used downstream.
 
+## Final dataset integration (completed)
+
+`notebooks/07_dataset_final.ipynb` integrates Phases 2-6 into the files Tableau reads from, without introducing new analysis. Verified before merging rather than assumed: `role_metrics.csv` and `role_scores.csv` share the exact same 2488 player ids (0 in either direction's difference). Merged on `id`, keeping only role_scores' non-duplicate columns (27 new columns: the four role scores, elite-role-count flags and totals at 90/95/99, `role_score_avg`, `role_score_range`, `role_score_std`) to avoid re-introducing the three columns already shared between both files (`name`, `minutesPlayed`, `world_cups_played`). Result: 2488 rows, 72 columns, no duplicate ids, no fully-empty columns, and five key players (Messi, Maradona, Cristiano Ronaldo, Cruyff, Zidane) checked to confirm their values match what was already reported in Phases 3-6, not just that row counts lined up.
+
+**Result:** `data/processed/dataset_final.csv` (2488 players, 72 columns) is the single source for the main Tableau dashboard. `role_specialists.csv` (Phase 6, unchanged) feeds the radar chart. `population.csv` (5636 players, no minutes filter) stays available separately, not merged into the main file, in case the dashboard needs to reference the full population.
+
 ## Extraction method
 
 SofaScore is accessed through its internal API (no official public API exists), using the ScraperFC library, which handles the anti-bot browser automation. This is being documented explicitly per the project's transparency rules: an internal API is not the same as a public, stable, officially supported one, and that has implications for reproducibility (structure can change without notice) and for rate limiting (requests should not be aggressive).
@@ -296,6 +302,12 @@ A diferencia de las Fases 0-5, esta fase no produce evidencia para la pregunta c
 
 **Resultado:** `data/processed/role_specialists.csv`, 12 filas, etiquetadas explícitamente como `statistical_leader` o `reference_addition`, listas para alimentar el radar chart de Tableau sin ambigüedad entre dato y decisión de comunicación. También queda en el notebook, como registro visual sin uso posterior, una tabla de referencia del top 10 por rol (tanto en 270 como en 900 minutos).
 
+## Integración del dataset final (completada)
+
+`notebooks/07_dataset_final.ipynb` integra las Fases 2-6 en los archivos desde los que lee Tableau, sin introducir análisis nuevo. Verificado antes de unir, no asumido: `role_metrics.csv` y `role_scores.csv` comparten exactamente el mismo conjunto de 2488 ids de jugador (0 de diferencia en ambas direcciones). Unido por `id`, quedándose solo con las columnas no duplicadas de role_scores (27 columnas nuevas: los cuatro puntajes de rol, banderas y totales de conteo de élite en 90/95/99, `role_score_avg`, `role_score_range`, `role_score_std`) para no reintroducir las tres columnas ya compartidas entre ambos archivos (`name`, `minutesPlayed`, `world_cups_played`). Resultado: 2488 filas, 72 columnas, sin ids duplicados, sin columnas completamente vacías, y cinco jugadores clave (Messi, Maradona, Cristiano Ronaldo, Cruyff, Zidane) revisados para confirmar que sus valores coinciden con lo ya reportado en las Fases 3-6, no solo que el conteo de filas cerraba.
+
+**Resultado:** `data/processed/dataset_final.csv` (2488 jugadores, 72 columnas) es la fuente única para el dashboard principal de Tableau. `role_specialists.csv` (Fase 6, sin cambios) alimenta el radar chart. `population.csv` (5636 jugadores, sin filtro de minutos) queda disponible por separado, sin fusionarse al archivo principal, por si el dashboard necesita referenciar la población completa.
+
 ## Método de extracción
 
 Se accede a SofaScore a través de su API interna (no existe una API pública oficial), usando la librería ScraperFC, que maneja la automatización de navegador para evitar la protección anti-bot. Esto se documenta explícitamente según las reglas de transparencia del proyecto: una API interna no es lo mismo que una API pública, estable y oficialmente soportada, y eso tiene implicaciones para la reproducibilidad (la estructura puede cambiar sin aviso) y para el rate limiting (las solicitudes no deben ser agresivas).
@@ -340,4 +352,4 @@ Todo gráfico o tabla que incluya un jugador de referencia agregado manualmente 
 
 - Si "top 5" o un corte basado en percentil define el rango de "élite" por rol. Esto debe justificarse metodológicamente, no elegirse después de ver cuál favorece a Messi.
 - Si las métricas de FBref y SofaScore se pueden combinar con seguridad dado que podrían definirse distinto.
-- Si los Mundiales anteriores a 1966 se pueden agregar a la población más adelante, pendiente de más spot-checks.
+- Si los Mundiales anteriores a 1966 se pueden agregar a la población más adelante, pendiente de más spot-checks.s
