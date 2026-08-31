@@ -113,6 +113,16 @@ The central question, operationalized with multiple deliberately different lense
 
 **Result:** `data/processed/role_scores.csv` updated with elite-count columns at 3 thresholds and `role_score_avg`. Narrative version, including the full synthesis table across reference players and every player who topped some view of the data, lives in `notebooks/05_multirole_elite_count.ipynb`.
 
+## Phase 6: role specialists for communication (completed)
+
+Unlike Phases 0-5, this phase doesn't produce evidence for the central question, it produces a communication artifact: the small set of players shown on the radar chart (project brief, section 13), which illustrates the difference between specialized and multidimensional profiles.
+
+**Statistical leaders, with a stricter selection floor:** the population's per-role leader (highest single-role score, not the average) is data, not opinion, but selecting who gets featured as "the leader" for communication material used a 900-minute floor, stricter than the 270-minute analytical population. This was needed after the organizer-role leader at 270 minutes turned out to be Isco (390 minutes), driven almost entirely by Spain's high-volume, low-threat passing display in their 2018 round-of-16 exit to Russia, a real match, not a data error, but a poor representative of "elite organizer" for a communication piece. At 900+ minutes, the four leaders are David Villa (finisher), Maradona (dribbler, unchanged from the 270-minute leader), David Beckham (chance creator), and Rodri (organizer), all with recognizable, defensible profiles.
+
+**Reference pairs, verified against their own data before assignment:** two manually added reference players per role, 8 total: Xavi and Andrea Pirlo (organizer), Zidane and Cruyff (chance creator), Neymar and Jairzinho (dribbler), Cristiano Ronaldo and Mbappé (finisher). Ronaldinho was initially considered for the dribbler pairing but dropped once his own four scores showed chance creator (93.75), not dribbling (86.11), as his highest role, replaced with Jairzinho, whose dribbler score (98.99) is unambiguously his own career peak. This follows the project's rule against assigning a reference player to a role their own data contradicts.
+
+**Result:** `data/processed/role_specialists.csv`, 12 rows, explicitly labeled `statistical_leader` or `reference_addition`, ready to feed the Tableau radar chart without ambiguity between data and communication choices. A top-10-per-role reference table (at both 270 and 900 minutes) is also kept in the notebook as a visual record, not used downstream.
+
 ## Extraction method
 
 SofaScore is accessed through its internal API (no official public API exists), using the ScraperFC library, which handles the anti-bot browser automation. This is being documented explicitly per the project's transparency rules: an internal API is not the same as a public, stable, officially supported one, and that has implications for reproducibility (structure can change without notice) and for rate limiting (requests should not be aggressive).
@@ -275,6 +285,16 @@ La pregunta central, operacionalizada con varias vistas deliberadamente distinta
 **Principio interpretativo aplicado:** en línea con el principio interpretativo de arriba, nada de esto se enmarca como un concurso "Messi contra el resto". Messi comparte el techo observado de 3-de-4 con otros 7 jugadores y tiene un segundo lugar genuino, no elegido a conveniencia (Maradona), por promedio de puntaje. Ambos hechos se reportan junto al hallazgo central, no se tratan como algo que lo socave.
 
 **Resultado:** `data/processed/role_scores.csv` actualizado con las columnas de conteo de élite en 3 umbrales y `role_score_avg`. La versión narrativa, con la tabla de síntesis completa entre jugadores de referencia y todo jugador que encabezó alguna vista de los datos, vive en `notebooks/05_multirole_elite_count.ipynb`.
+
+## Fase 6: especialistas por rol para comunicación (completada)
+
+A diferencia de las Fases 0-5, esta fase no produce evidencia para la pregunta central, produce un artefacto de comunicación: el pequeño conjunto de jugadores que se muestra en el radar chart (planteamiento del proyecto, sección 13), que ilustra la diferencia entre perfiles especializados y multidimensionales.
+
+**Líderes estadísticos, con un piso de selección más exigente:** el líder por rol de la población (puntaje más alto en un solo rol, no el promedio) es dato, no opinión, pero elegir a quién mostrar como "el líder" en el material de comunicación usó un piso de 900 minutos, más exigente que la población analítica de 270 minutos. Esto fue necesario después de que el líder de organizador con 270 minutos resultara ser Isco (390 minutos), impulsado casi por completo por la actuación de España de mucho volumen y poco peligro en la eliminación en octavos de 2018 contra Rusia, un partido real, no un error de datos, pero un mal representante de "organizador de élite" para una pieza de comunicación. Con 900+ minutos, los cuatro líderes son David Villa (finalizador), Maradona (desequilibrante, sin cambios respecto al líder de 270 minutos), David Beckham (creador de juego), y Rodri (organizador), todos con perfiles reconocibles y defendibles.
+
+**Pares de referencia, verificados contra sus propios datos antes de asignarlos:** dos jugadores de referencia agregados manualmente por rol, 8 en total: Xavi y Andrea Pirlo (organizador), Zidane y Cruyff (creador de juego), Neymar y Jairzinho (desequilibrante), Cristiano Ronaldo y Mbappé (finalizador). Ronaldinho se consideró inicialmente para el par de desequilibrante pero se descartó cuando sus propios cuatro puntajes mostraron a creador de juego (93.75), no desequilibrante (86.11), como su rol más alto, reemplazado por Jairzinho, cuyo puntaje de desequilibrante (98.99) es inequívocamente su propio pico de carrera. Esto sigue la regla del proyecto contra asignar a un jugador de referencia a un rol que sus propios datos contradicen.
+
+**Resultado:** `data/processed/role_specialists.csv`, 12 filas, etiquetadas explícitamente como `statistical_leader` o `reference_addition`, listas para alimentar el radar chart de Tableau sin ambigüedad entre dato y decisión de comunicación. También queda en el notebook, como registro visual sin uso posterior, una tabla de referencia del top 10 por rol (tanto en 270 como en 900 minutos).
 
 ## Método de extracción
 

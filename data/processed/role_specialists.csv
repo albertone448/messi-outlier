@@ -1,0 +1,13 @@
+name,score,minutesPlayed,world_cups_played,role_context,label
+David Villa,98.79421221864952,901.0,3,finisher,statistical_leader
+Diego Armando Maradona,99.53108252947482,1940.0,4,dribbler,statistical_leader
+David Beckham,98.29581993569133,1028.0,3,chance_creator,statistical_leader
+Rodri,99.95176848874598,1116.0,2,play_organizer,statistical_leader
+Xavi,99.4855305466238,1124.0,4,play_organizer,reference_addition
+Andrea Pirlo,97.65273311897106,972.0,3,play_organizer,reference_addition
+Zinedine Zidane,88.9750803858521,1109.0,3,chance_creator,reference_addition
+Johan Cruyff,98.68971061093248,630.0,1,chance_creator,reference_addition
+Neymar,96.12808145766344,1225.0,4,dribbler,reference_addition
+Jairzinho,98.9951768488746,1430.0,3,dribbler,reference_addition
+Cristiano Ronaldo,96.63719185423363,2206.0,6,finisher,reference_addition
+Kylian Mbappé,98.29849946409432,1829.0,3,finisher,reference_addition

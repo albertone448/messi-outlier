@@ -127,13 +127,15 @@ qué depende de qué elección metodológica.
 
 ---
 
-## PARTE 7 — Fase 6: Especialistas por rol (comunicación, no evidencia)
+## PARTE 7 — Fase 6: Especialistas por rol (comunicación, no evidencia) — COMPLETA
 
-- [ ] 7.1 Identificar el líder estadístico de la población en la métrica principal de cada uno de los 4 roles
-- [ ] 7.2 Decidir qué jugadores de referencia conocidos se agregan manualmente aunque no lideren esa métrica específica en esta población
-- [ ] 7.3 Etiquetar claramente cada nombre como "líder estadístico" o "adición de referencia" en la tabla/dataset resultante
-- [ ] 7.4 Construir `notebooks/06_role_specialists_reference.ipynb`
-- [ ] 7.5 Commit de Fase 6
+- [x] 7.1 Identificar el líder estadístico de la población en la métrica principal de cada uno de los 4 roles, con un piso de 900 minutos aplicado específicamente para esta selección (más exigente que los 270 de la población analítica), después de detectar que el líder de organizador con 270 min (Isco, 390 minutos) reflejaba un caso real de posesión estéril (España-Rusia, octavos 2018), no buen rendimiento como organizador
+- [x] 7.2 Decidir 2 jugadores de referencia conocidos por rol (8 en total: Xavi/Pirlo, Zidane/Cruyff, Neymar/Jairzinho, Cristiano/Mbappé), cada uno verificado contra sus propios 4 puntajes antes de asignarlo (Ronaldinho descartado de desequilibrante al confirmar que su puntaje más alto es creador, reemplazado por Jairzinho)
+- [x] 7.3 Etiquetar claramente cada nombre como `statistical_leader` o `reference_addition` en el dataset resultante
+- [x] 7.4 Construir `notebooks/06_role_specialists_reference.ipynb`
+- [x] 7.6 Exportar `data/processed/role_specialists.csv` (12 filas: 4 líderes + 8 referencias)
+- [x] 7.7 Agregar tabla de referencia top 10 por rol (270 y 900 minutos) al notebook, sin uso posterior en el pipeline, solo registro visual
+- [x] 7.5 Commit de Fase 6
 
 ---
 
