@@ -94,7 +94,8 @@ Las decisiones metodológicas de fondo (por qué se eligió algo, qué se descar
 - [x] 5.4 Construir `notebooks/04_role_correlations.ipynb`
 - [x] 5.5 Documentar el hallazgo en `METHODOLOGY.md`, incluyendo la razón de diseño de roles y la predicción pre-registrada para la Fase 5 (percentil 84 de Messi en organizador, y que la correlación poblacional no garantiza rendimiento individual correlacionado)
 - [x] 5.7 Exportar `data/processed/role_scores.csv` (2488 jugadores, 4 puntajes de rol por percentil)
-- [ ] 5.6 Commit de Fase 4
+- [x] 5.8 Addendum: exportar `data/processed/role_correlation_matrix.csv` (matriz de correlación 4x4 en formato largo, generada directamente desde `correlation_matrix` del notebook, no tipeada a mano) para el heatmap nativo de Tableau
+- [x] 5.6 Commit de Fase 4
 
 ---
 
