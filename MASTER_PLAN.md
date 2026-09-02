@@ -148,7 +148,11 @@ qué depende de qué elección metodológica.
 - [x] 8.2.2 Documentar la interpretación del arco de carrera (minutos de juventud/veteranía como capa de dificultad adicional, razonada pero no demostrable como contrafactual) y la nota de opinión sobre el rol finalizador, ambas etiquetadas explícitamente como interpretación/opinión, no como hallazgo estadístico
 - [x] 8.2.3 Commit de la Fase de integración final y visualizaciones previas
 - [x] 8.2.4 Agregar gráficos de barras top-10 (totales crudos, 2 métricas principales por rol + minutos de carrera) y revisar los totales de Messi específicamente contra jugadores con minutos de carrera comparables o mayores (Maldini, Matthäus, Modrić, Mascherano, Lahm), no solo contra la población general — confirma el patrón en 3 de 4 roles y consistente con la debilidad relativa de organizador ya identificada en la Fase 4
-- [ ] 8.3 Diseñar el dashboard en Tableau Public (filtros por jugador, torneo, rol, métrica)
+- [x] 8.3 Diseñar el dashboard en Tableau Public — replanteado a 3 dashboards / 7 hojas (ver detalle abajo)
+  - [x] 8.3.1 `role_correlation_matrix.csv` exportado desde el notebook 4 para el heatmap nativo de Tableau (ver Fase 4, addendum)
+  - [x] 8.3.2 Dashboard 1 — "Los cuatro roles, ¿son realmente distintos?": Hoja "Correlación entre roles funcionales" (heatmap 4x4) + Hoja "Creador vs. Organizador: la correlación más débil +900min" (scatter, Messi resaltado en celeste/blanco, filtro de minutos aplicado a todas las hojas de la fuente)
+  - [ ] 8.3.3 Dashboard 2 — el hallazgo central (promedio vs. minutos + distribución de roles de élite)
+  - [ ] 8.3.4 Dashboard 3 — perfiles (Messi vs. referencias, Messi vs. top 5 por rol, candidatos GOAT)
 - [ ] 8.4 Publicar el dashboard
 - [ ] 8.5 Agregar el link del dashboard al README
 - [ ] 8.6 Revisión final: confirmar que README y METHODOLOGY.md reflejan el estado real del proyecto de punta a punta
