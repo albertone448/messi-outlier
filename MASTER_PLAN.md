@@ -151,7 +151,7 @@ qué depende de qué elección metodológica.
 - [x] 8.3 Diseñar el dashboard en Tableau Public — replanteado a 3 dashboards / 7 hojas (ver detalle abajo)
   - [x] 8.3.1 `role_correlation_matrix.csv` exportado desde el notebook 4 para el heatmap nativo de Tableau (ver Fase 4, addendum)
   - [x] 8.3.2 Dashboard 1 — "Los cuatro roles, ¿son realmente distintos?": Hoja "Correlación entre roles funcionales" (heatmap 4x4) + Hoja "Creador vs. Organizador: la correlación más débil +900min" (scatter, Messi resaltado en celeste/blanco, filtro de minutos aplicado a todas las hojas de la fuente)
-  - [ ] 8.3.3 Dashboard 2 — el hallazgo central (promedio vs. minutos + distribución de roles de élite)
+  - [x] 8.3.3 Dashboard 2 — "El hallazgo central: ¿dónde cae Messi contra 2488 jugadores?": Hoja "Promedio de puntaje de rol vs. minutos de carrera" (con `Name` en Etiqueta, no en tooltip, dejando que Tableau autoseleccione qué nombres mostrar sin solaparse; control interactivo de piso de minutos, 270-3054) + Hoja "¿Qué tan raro es llegar al techo de élite?" (barras en escala log, campo calculado `Es Techo 3 de 4` para resaltar la barra de Messi, tooltip con detalle por categoría)
   - [ ] 8.3.4 Dashboard 3 — perfiles (Messi vs. referencias, Messi vs. top 5 por rol, candidatos GOAT)
 - [ ] 8.4 Publicar el dashboard
 - [ ] 8.5 Agregar el link del dashboard al README
