@@ -158,12 +158,20 @@ qué depende de qué elección metodológica.
     - [x] Hoja "Top 5 Desequilibrante" (Maradona, Hazard, Hagi, Jairzinho, Neymar + Messi)
     - [x] Hoja "Top 5 Creador" (Beckham, Häßler, Vercauteren, Littbarski, Jonk + Messi)
     - [x] Hoja "Top 5 Organizador" (Rodri, Xavi, Alba, Kroos, Valderrama + Messi)
-    - [ ] Hoja "Candidatos GOAT" (Messi, Cristiano, Maradona, Cruyff, Pelé, editorial no estadística)
-    - [ ] Armar el dashboard uniendo las 6 hojas
-- [ ] 8.4 Publicar el dashboard
-- [ ] 8.5 Agregar el link del dashboard al README
-- [ ] 8.6 Revisión final: confirmar que README y METHODOLOGY.md reflejan el estado real del proyecto de punta a punta
-- [ ] 8.7 Commit de cierre
+    - [x] Hoja "Candidatos GOAT" (Messi, Cristiano, Maradona, Cruyff, Pelé, editorial no estadística; piso de minutos bajado a 270 para no excluir a Pelé, 720 min)
+    - [x] Armar el dashboard uniendo las 6 hojas — "Dash 3: Perfiles", layout 2x3
+- [x] 8.4 Publicar el dashboard (3 dashboards publicados en Tableau Public)
+- [x] 8.5 Agregar el link del dashboard al README (los 3, con etiqueta descriptiva de qué responde cada uno)
+- [x] 8.6 Revisión final: README y METHODOLOGY.md reescritos a estado de proyecto completo, con sección de Resultados por fase y Conclusión explícita
+- [x] 8.7 Commit de cierre
+
+---
+
+## PROYECTO COMPLETO
+
+Los 8 notebooks (00-07) están cerrados, documentados en `METHODOLOGY.md`, y el dataset final (`dataset_final.csv`, 2488 jugadores) alimenta los 3 dashboards publicados en Tableau Public, enlazados desde el README. Se agregó al README una nota de cierre personal: el 31 de agosto de 2026, durante la construcción de este proyecto, Messi anunció su retiro de la selección tras su sexto Mundial, cerrando de forma definitiva el registro que este proyecto analiza. No hay pasos pendientes del pipeline de datos ni del dashboard.
+
+Las decisiones abiertas que quedaron documentadas en `METHODOLOGY.md` (posible extensión a Mundiales previos a 1966, combinar FBref/SofaScore, etc.) no bloquean el cierre del proyecto: son extensiones posibles para una versión futura, no huecos del alcance actual, y quedan anotadas como tal, no resueltas a la fuerza para cerrar en falso.
 
 ---
 

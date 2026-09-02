@@ -185,6 +185,20 @@ Every chart or table that includes a manually added reference player must visual
 - Whether FBref and SofaScore metrics can be safely combined given definitional differences.
 - Whether pre-1966 World Cups can be added to the population later, pending further spot-checks.
 
+## Project conclusion
+
+The pipeline (Phases 0-6, final dataset integration, Tableau dashboard) is complete. The central question was tested with every safeguard the project set for itself: percentile-based elite thresholds instead of a fixed top-N, multiple minimum-minutes floors tested transparently instead of one convenient cutoff, a pre-registered prediction about the organizer role stated before the numbers were run, and reference players chosen for recognizability but always labeled separately from data-driven statistical leaders.
+
+The strongest version of the hypothesis, elite in all four roles simultaneously, is not supported: nobody in the 1966-2026 population reaches that at a genuine elite threshold, Messi included. What the data does support, and what survived every lens tested (binary elite count, continuous average score, multiple percentile cutoffs, multiple minutes floors, checks against players with comparable or larger career samples): among players with a real career-length World Cup sample, no profile clearly exceeds or consistently matches Messi's. Maradona is a genuine, non-cherry-picked runner-up. Cristiano Ronaldo, with almost identical career opportunity, produced the lowest multi-role average in every comparison set, direct evidence the finding isn't just a function of playing many World Cups.
+
+This is reported as a claim about the absence of a better-supported rival across 60 years of World Cup data, not as mathematical uniqueness, consistent with the interpretive principle declared early in this document: shared excellence doesn't diminish a finding, and numbers are read together with their human context (career length, era, age span), not in isolation.
+
+## Post-completion validation note
+
+On August 31, 2026, while this project was still being built, Lionel Messi announced his retirement from the Argentina national team, closing his World Cup career for good at 6 tournaments, 34 matches, 21 goals. The 21-goal figure was reported independently by the press the same day, without reference to this project, and matches this pipeline's own computed total exactly. This is an unplanned external check on the extraction and aggregation logic across the whole pipeline, not something the project set out to obtain, and it landed on the same number.
+
+A practical consequence for scope: the World Cup population this project measures is now closed for Messi specifically, no future tournament will change his row in the dataset. The open decisions logged above (extending the population before 1966, combining FBref with SofaScore) remain legitimate directions for a future version, not gaps in the current one.
+
 ---
 
 <a id="español"></a>
@@ -373,3 +387,17 @@ Todo gráfico o tabla que incluya un jugador de referencia agregado manualmente 
 - Si "top 5" o un corte basado en percentil define el rango de "élite" por rol. Esto debe justificarse metodológicamente, no elegirse después de ver cuál favorece a Messi.
 - Si las métricas de FBref y SofaScore se pueden combinar con seguridad dado que podrían definirse distinto.
 - Si los Mundiales anteriores a 1966 se pueden agregar a la población más adelante, pendiente de más spot-checks.
+
+## Conclusión del proyecto
+
+El pipeline (Fases 0-6, integración del dataset final, dashboard de Tableau) está completo. La pregunta central se probó con todos los resguardos que el proyecto se fijó a sí mismo: umbrales de élite basados en percentil en vez de un top-N fijo, varios pisos de minutos probados de forma transparente en vez de un corte conveniente único, una predicción sobre el rol organizador declarada antes de correr los números, y jugadores de referencia elegidos por reconocibilidad pero siempre etiquetados por separado de los líderes estadísticos basados en datos.
+
+La versión más fuerte de la hipótesis, élite en los cuatro roles simultáneamente, no está respaldada: nadie en la población 1966-2026 llega a eso en un umbral de élite genuino, Messi incluido. Lo que los datos sí respaldan, y que sobrevivió cada mirada probada (conteo binario de élite, promedio continuo de puntaje, varios cortes de percentil, varios pisos de minutos, chequeos contra jugadores con muestras de carrera comparables o mayores): entre jugadores con una muestra real de carrera mundialista, ningún perfil supera claramente ni iguala de forma consistente al de Messi. Maradona es un segundo lugar genuino, no elegido a conveniencia. Cristiano Ronaldo, con una oportunidad de carrera casi idéntica, produjo el promedio multi-rol más bajo en cada conjunto de comparación, evidencia directa de que el hallazgo no es simplemente una función de jugar muchos Mundiales.
+
+Esto se reporta como una afirmación sobre la ausencia de un rival mejor respaldado a lo largo de 60 años de datos mundialistas, no como unicidad matemática, consistente con el principio interpretativo declarado al inicio de este documento: la excelencia compartida no le resta al hallazgo, y los números se leen junto a su contexto humano (duración de carrera, época, rango de edad), no en aislamiento.
+
+## Nota de validación tras el cierre
+
+El 31 de agosto de 2026, mientras este proyecto todavía se estaba construyendo, Lionel Messi anunció su retiro de la selección argentina, cerrando su carrera mundialista de forma definitiva en 6 torneos, 34 partidos, 21 goles. La cifra de 21 goles fue reportada de forma independiente por la prensa ese mismo día, sin ninguna referencia a este proyecto, y coincide exacto con el total que este pipeline calculó por su cuenta. Es un chequeo externo no planeado sobre la lógica de extracción y agregación de todo el pipeline, no algo que el proyecto buscara obtener, y llegó al mismo número.
+
+Una consecuencia práctica para el alcance: la población mundialista que este proyecto mide ya quedó cerrada para Messi específicamente, ningún torneo futuro va a cambiar su fila en el dataset. Las decisiones abiertas registradas arriba (extender la población antes de 1966, combinar FBref con SofaScore) siguen siendo direcciones legítimas para una versión futura, no huecos de la versión actual.
