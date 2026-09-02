@@ -152,7 +152,14 @@ qué depende de qué elección metodológica.
   - [x] 8.3.1 `role_correlation_matrix.csv` exportado desde el notebook 4 para el heatmap nativo de Tableau (ver Fase 4, addendum)
   - [x] 8.3.2 Dashboard 1 — "Los cuatro roles, ¿son realmente distintos?": Hoja "Correlación entre roles funcionales" (heatmap 4x4) + Hoja "Creador vs. Organizador: la correlación más débil +900min" (scatter, Messi resaltado en celeste/blanco, filtro de minutos aplicado a todas las hojas de la fuente)
   - [x] 8.3.3 Dashboard 2 — "El hallazgo central: ¿dónde cae Messi contra 2488 jugadores?": Hoja "Promedio de puntaje de rol vs. minutos de carrera" (con `Name` en Etiqueta, no en tooltip, dejando que Tableau autoseleccione qué nombres mostrar sin solaparse; control interactivo de piso de minutos, 270-3054) + Hoja "¿Qué tan raro es llegar al techo de élite?" (barras en escala log, campo calculado `Es Techo 3 de 4` para resaltar la barra de Messi, tooltip con detalle por categoría)
-  - [ ] 8.3.4 Dashboard 3 — perfiles (Messi vs. referencias, Messi vs. top 5 por rol, candidatos GOAT)
+  - [x] 8.3.4 Dashboard 3 — perfiles, en construcción. Técnica base: `Nombres de medidas`/`Valores de medidas` con los 4 `_Score` como líneas, filtro por lista fija (`CASE [Name] WHEN...`) en vez del "Top N" nativo de Tableau (que no filtra bien combinado con esta estructura de medidas apiladas)
+    - [x] Hoja "Messi vs referencias por rol" (los 12 de la Fase 6)
+    - [x] Hoja "Top 5 Finalizador" (Villa, Batistuta, Müller, Mbappé, Ronaldo Nazário + Messi)
+    - [x] Hoja "Top 5 Desequilibrante" (Maradona, Hazard, Hagi, Jairzinho, Neymar + Messi)
+    - [x] Hoja "Top 5 Creador" (Beckham, Häßler, Vercauteren, Littbarski, Jonk + Messi)
+    - [x] Hoja "Top 5 Organizador" (Rodri, Xavi, Alba, Kroos, Valderrama + Messi)
+    - [ ] Hoja "Candidatos GOAT" (Messi, Cristiano, Maradona, Cruyff, Pelé, editorial no estadística)
+    - [ ] Armar el dashboard uniendo las 6 hojas
 - [ ] 8.4 Publicar el dashboard
 - [ ] 8.5 Agregar el link del dashboard al README
 - [ ] 8.6 Revisión final: confirmar que README y METHODOLOGY.md reflejan el estado real del proyecto de punta a punta
