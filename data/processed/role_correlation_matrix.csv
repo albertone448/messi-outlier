@@ -1,0 +1,17 @@
+role_a,role_b,correlation
+Finalizador,Finalizador,1.0
+Finalizador,Desequilibrante,0.548
+Finalizador,Creador,0.485
+Finalizador,Organizador,0.024
+Desequilibrante,Finalizador,0.548
+Desequilibrante,Desequilibrante,1.0
+Desequilibrante,Creador,0.583
+Desequilibrante,Organizador,0.131
+Creador,Finalizador,0.485
+Creador,Desequilibrante,0.583
+Creador,Creador,1.0
+Creador,Organizador,0.297
+Organizador,Finalizador,0.024
+Organizador,Desequilibrante,0.131
+Organizador,Creador,0.297
+Organizador,Organizador,1.0
